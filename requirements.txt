@@ -1,0 +1,18 @@
+# Python 3.11.5  —  versions pinned to the project venv (pip freeze)
+# Install:  python -m pip install -r requirements.txt
+
+# ── Core experiment (Layer 2) ──────────────
+groq==1.4.0
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-chroma==0.2.4
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.8
+langchain-core==0.3.61
+chromadb==1.5.9
+sentence-transformers==5.5.1
+pypdf==6.12.2
+tqdm==4.67.3
+
+# ── Data acquisition (Layer 1) ─────────────
+requests==2.34.2

@@ -1,0 +1,38 @@
+# ── Secrets ────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ─────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ── Editors / OS ───────────────────────────
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# ── Claude Code local config (local-only, no secrets) ──
+.claude/
+
+# ── Local-only docs (meeting prep, not for the shared repo) ──
+docs/CUE_CARD.md
+
+# ── Large / regenerable data — keep OUT of git ─────────
+# NOTE: comments must be on their own line; git ignores inline (trailing) comments.
+# PDFs/                -> 2.1 GB corpus (re-downloadable via setup/)
+# *.pdf                -> copyrighted source papers — never redistribute
+# chroma_db/           -> 464 MB vector index (rebuild: core/rag_pipeline.py --rebuild)
+# chunks_metadata.json -> 10.9 MB, regenerated on every index rebuild
+PDFs/
+*.pdf
+chroma_db/
+chunks_metadata.json
+
+# Tracked on purpose (small scientific record): pilot_eval_set.json,
+# contradictions_cache.json, results_cache.jsonl, results.csv,
+# retrieval_evaluation.json, paper_metadata.json, and the DOI/query provenance .txt files.
