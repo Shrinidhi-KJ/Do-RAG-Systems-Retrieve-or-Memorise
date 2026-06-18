@@ -1,0 +1,998 @@
+[
+  {
+    "claim_text": "Likewise, Pollock et al. (2024) illustrated significant avoidance close to the turbines from 0 to 140m.",
+    "question": "According to the scientific literature: Likewise, research illustrated significant avoidance close to the turbines from 0 to 140m?",
+    "citations": [
+      {
+        "first_author": "Pollock",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00227-024-04542-y"
+    ]
+  },
+  {
+    "claim_text": "Virgili et al. (2024) predicted the highest densities furthest from OWFs, supporting an avoidance effect.",
+    "question": "According to the scientific literature: research predicted the highest densities furthest from OWFs, supporting an avoidance effect?",
+    "citations": [
+      {
+        "first_author": "Virgili",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2024.1344013"
+    ]
+  },
+  {
+    "claim_text": "Flight height studies (Fijn et al., 2015; Fijn & Collier, 2022) of sandwich tern (Thalasseus sandvicensis) revealed frequent overlap with rotor-swept zones, with a mean height of ~13 m, suggesting potential collision risk, especially during foraging and transit flights.",
+    "question": "According to the scientific literature: Flight height studies of sandwich tern (Thalasseus sandvicensis) revealed frequent overlap with rotor-swept zones, with a mean height of ~13 m, suggesting potential collision risk, especially during foraging and transit flights?",
+    "citations": [
+      {
+        "first_author": "Fijn",
+        "year": 2015
+      },
+      {
+        "first_author": "Fijn",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.5253/arde.v110i1.a8"
+    ]
+  },
+  {
+    "claim_text": "Sulidae (Gannets): Northern Gannet ( Morus bassanus) Several studies (Busch et al., 2013; Mendel et al., 2014; Pollock et al., 2024; Vanermen et al., 2015; Virgili et al., 2024) describe seasonal or spatial variation in gannet abundance; abundance may peak in winter months (December–March), with juveniles in late summer.",
+    "question": "According to the scientific literature: Sulidae (Gannets): Northern Gannet ( Morus bassanus) Several studies describe seasonal or spatial variation in gannet abundance; abundance may peak in winter months (December–March), with juveniles in late summer?",
+    "citations": [
+      {
+        "first_author": "Busch",
+        "year": 2013
+      },
+      {
+        "first_author": "Mendel",
+        "year": 2014
+      },
+      {
+        "first_author": "Pollock",
+        "year": 2024
+      },
+      {
+        "first_author": "Vanermen",
+        "year": 2015
+      },
+      {
+        "first_author": "Virgili",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00227-024-04542-y",
+      "10.3389/fmars.2024.1344013"
+    ]
+  },
+  {
+    "claim_text": "Pollock et al. (2024) found that juveniles spend more time in high-risk OWF zones than adults.",
+    "question": "According to the scientific literature: Research found that juveniles spend more time in high-risk OWF zones than adults?",
+    "citations": [
+      {
+        "first_author": "Pollock",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00227-024-04542-y"
+    ]
+  },
+  {
+    "claim_text": "Garthe et al. (2017a); Garthe et al. (2017b); Cleasby et al. (2015), Peschko et al. (2020), and Furness et al. (2018) provide evidence of gannets avoiding entering OWFs, especially within 250 m of turbines, and tend to fly higher (17.9 m) when inside OWFs than outside (14.4 m).",
+    "question": "According to the scientific literature: research; research; research, research, and research provide evidence of gannets avoiding entering OWFs, especially within 250 m of turbines, and tend to fly higher (17.9 m) when inside OWFs than outside (14.4 m)?",
+    "citations": [
+      {
+        "first_author": "Garthe",
+        "year": 2017
+      },
+      {
+        "first_author": "Cleasby",
+        "year": 2015
+      },
+      {
+        "first_author": "Peschko",
+        "year": 2020
+      },
+      {
+        "first_author": "Furness",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.5194/os-13-337-2017"
+    ]
+  },
+  {
+    "claim_text": "Gaviiformes (Lot tons / Divers): Divers ( Gaviidae spp.); Loons (Gavia spp.) Vilela et al. (2021) found no consistent trend in diver ( Gaviidae spp.) abundance across their study area, though the lowest estimates occurred in 2008–2009, prior to OWF construction.",
+    "question": "According to the scientific literature: Gaviiformes (Lot tons / Divers): Divers ( Gaviidae spp.); Loons (Gavia spp.) research found no consistent trend in diver ( Gaviidae spp.) abundance across their study area, though the lowest estimates occurred in 2008–2009, prior to OWF construction?",
+    "citations": [
+      {
+        "first_author": "Vilela",
+        "year": 2021
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2021.701332"
+    ]
+  },
+  {
+    "claim_text": "Likewise, Peschko et al. (2024) found that up to 68% of the guillemot population in the German North Sea will experience habitat loss.",
+    "question": "According to the scientific literature: Likewise, research found that up to 68% of the guillemot population in the German North Sea will experience habitat loss?",
+    "citations": [
+      {
+        "first_author": "Peschko",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s10531-023-02759-9"
+    ]
+  },
+  {
+    "claim_text": "Phalacrocoracidae (Cormorants and Shags): Cormorants ( Phalacrocoracidae sp ); European shags (Phalacrocorax aristotelis) A comparatively little-studied group, Virgili et al. (2024) found that cormorant ( Phalacrocoracidae spp.) abundance distribution is very coastal, with consistent year-round presence along the French and Belgian coasts.",
+    "question": "According to the scientific literature: Phalacrocoracidae (Cormorants and Shags): Cormorants ( Phalacrocoracidae sp ); European shags (Phalacrocorax aristotelis) A comparatively little-studied group, research found that cormorant ( Phalacrocoracidae spp.) abundance distribution is very coastal, with consistent year-round presence along the French and Belgian coasts?",
+    "citations": [
+      {
+        "first_author": "Virgili",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2024.1344013"
+    ]
+  },
+  {
+    "claim_text": "Grémillet et al. (2020) identified spatial overlap between the foraging areas of European shags ( Phalacrocorax aristotelis ) around Chausey, Normandy and zones of planned or operational OWFs.",
+    "question": "According to the scientific literature: research identified spatial overlap between the foraging areas of European shags ( Phalacrocorax aristotelis ) around Chausey, Normandy and zones of planned or operational OWFs?",
+    "citations": [
+      {
+        "first_author": "Grémillet",
+        "year": 2020
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00227-020-3655-5"
+    ]
+  },
+  {
+    "claim_text": "Waders (shorebirds): Eurasian curlew ( Numenius arquata); Other non-pelagic shorebirds Schwemmer et al. (2023a) outline that Eurasian curlews exhibited significantly lower flight alti - tudes across the Baltic Sea, and migration intensity peaked at night during spring.",
+    "question": "According to the scientific literature: Waders (shorebirds): Eurasian curlew ( Numenius arquata); Other non-pelagic shorebirds research outline that Eurasian curlews exhibited significantly lower flight alti - tudes across the Baltic Sea, and migration intensity peaked at night during spring?",
+    "citations": [
+      {
+        "first_author": "Schwemmer",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jenvman.2023.118131"
+    ]
+  },
+  {
+    "claim_text": "Schwemmer et al. (2023b) demonstrated that non-pelagic shorebirds did not exhibit significant changes in horizontal movement patterns in response to the OWFs.",
+    "question": "According to the scientific literature: Research demonstrated that non-pelagic shorebirds did not exhibit significant changes in horizontal movement patterns in response to the OWFs?",
+    "citations": [
+      {
+        "first_author": "Schwemmer",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jenvman.2023.118131"
+    ]
+  },
+  {
+    "claim_text": "Virgili et al. (2024) predicted harbour porpoises prefer offshore waters over coastal areas, with higher densities beyond 20 km from shore.",
+    "question": "According to the scientific literature: research predicted harbour porpoises prefer offshore waters over coastal areas, with higher densities beyond 20 km from shore?",
+    "citations": [
+      {
+        "first_author": "Virgili",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2024.1344013"
+    ]
+  },
+  {
+    "claim_text": "Dolphins: Bottlenose dolphin ( Tursiops truncatus) Potlock et al. (2023) observed no significant change in the occurrence of two dolphin species before and after OWF construction at gravity-based foundations.",
+    "question": "According to the scientific literature: Dolphins: Bottlenose dolphin ( Tursiops truncatus) research observed no significant change in the occurrence of two dolphin species before and after OWF construction at gravity-based foundations?",
+    "citations": [
+      {
+        "first_author": "Potlock",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00227-023-04240-1"
+    ]
+  },
+  {
+    "claim_text": "Raoux et al. (2017) modelled ecosystem responses to offshore wind farms for a number of trophic groups and found that the biomass of bottlenose dolphins ( Tursiops truncatus) increased after OWF construction.",
+    "question": "According to the scientific literature: research modelled ecosystem responses to offshore wind farms for a number of trophic groups and found that the biomass of bottlenose dolphins ( Tursiops truncatus) increased after OWF construction?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "Seals: Harbour ( Phoca vitulina) and Grey seals (Halichoerus grypus ) Similarly, Raoux et al. (2017) provided some indication that both harbour ( Phoca vitulina) and grey seals ( Halichoerus grypus ) may benefit indirectly from increases in prey biomass.",
+    "question": "According to the scientific literature: Seals: Harbour ( Phoca vitulina) and Grey seals (Halichoerus grypus ) Similarly, research provided some indication that both harbour ( Phoca vitulina) and grey seals ( Halichoerus grypus ) may benefit indirectly from increases in prey biomass?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "Lagerveld et al. (2023) underscore the possibility of a spatial gradient in bat presence, with western OWF areas showing higher bat activity than those in the South, East, or northern parts of the North Sea.",
+    "question": "According to the scientific literature: research underscore the possibility of a spatial gradient in bat presence, with western OWF areas showing higher bat activity than those in the South, East, or northern parts of the North Sea?",
+    "citations": [
+      {
+        "first_author": "Lagerveld",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s10661-023-11590-2"
+    ]
+  },
+  {
+    "claim_text": "D1 - Fish The presence of offshore wind farms can modify fish distributions and composition by attracting species to artificial structures and reducing the abundance of species that rely on soft-bottom habitats (Buyse et al., 2022; Cornelis et al., 2024; Stenberg et al., 2015).",
+    "question": "According to the scientific literature: D1 - Fish The presence of offshore wind farms can modify fish distributions and composition by attracting species to artificial structures and reducing the abundance of species that rely on soft-bottom habitats?",
+    "citations": [
+      {
+        "first_author": "Buyse",
+        "year": 2022
+      },
+      {
+        "first_author": "Cornelis",
+        "year": 2024
+      },
+      {
+        "first_author": "Stenberg",
+        "year": 2015
+      }
+    ],
+    "matched_dois": [
+      "10.1002/edn3.575"
+    ]
+  },
+  {
+    "claim_text": "They also exhibit strong site fidelity, particularly in summer, though some remain year-round (Berges et al., 2024; Reubens et al., 2013).",
+    "question": "According to the scientific literature: They also exhibit strong site fidelity, particularly in summer, though some remain year-round?",
+    "citations": [
+      {
+        "first_author": "Berges",
+        "year": 2024
+      },
+      {
+        "first_author": "Reubens",
+        "year": 2013
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.marenvres.2013.05.013"
+    ]
+  },
+  {
+    "claim_text": "OWFs often overlap critical habitats, such as flatfish spawning grounds (2–16% of settlers originate from OWF areas) (Barbut et al., 2020) and may further enhance spawning connectivity for species with pelagic larvae by linking natural and artificial hard substrates (Van Der Molen et al., 2018).",
+    "question": "According to the scientific literature: OWFs often overlap critical habitats, such as flatfish spawning grounds (2–16% of settlers originate from OWF areas) and may further enhance spawning connectivity for species with pelagic larvae by linking natural and artificial hard substrates (Van Der Molen et al., 2018)?",
+    "citations": [
+      {
+        "first_author": "Barbut",
+        "year": 2020
+      },
+      {
+        "first_author": "Molen",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s41598-018-32912-2"
+    ]
+  },
+  {
+    "claim_text": "Experimental exposure to pile-driving sound (LE = 206 dB re 1 µPa2s for an exposure to 100 strikes) showed no significant increase in mortality for common sole larvae within the first 7 days post-exposure (Bolle et al., 2012).",
+    "question": "According to the scientific literature: Experimental exposure to pile-driving sound (LE = 206 dB re 1 µPa2s for an exposure to 100 strikes) showed no significant increase in mortality for common sole larvae within the first 7 days post-exposure?",
+    "citations": [
+      {
+        "first_author": "Bolle",
+        "year": 2012
+      }
+    ],
+    "matched_dois": [
+      "10.1371/journal.pone.0033052"
+    ]
+  },
+  {
+    "claim_text": "Multi-use marine parks incorporating OWFs have different implications for fish stocks, requiring more empirical evaluation (Burkhard et al., 2011).",
+    "question": "According to the scientific literature: Multi-use marine parks incorporating OWFs have different implications for fish stocks, requiring more empirical evaluation?",
+    "citations": [
+      {
+        "first_author": "Burkhard",
+        "year": 2011
+      }
+    ],
+    "matched_dois": [
+      "10.5751/es-05207-170432"
+    ]
+  },
+  {
+    "claim_text": "D1 - Cephalopods One paper (Raoux et al., 2017) with two modelling-type case studies was retrieved covering the impacts of OWF expansion on cephalopods.",
+    "question": "According to the scientific literature: D1 - Cephalopods One paper with two modelling-type case studies was retrieved covering the impacts of OWF expansion on cephalopods?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "D1 – Pelagic habitats The same paper, Raoux et al. (2017), measured mean annual biomasses of zooplankton and phy - toplankton from data collected from monitoring the quality of water bodies in the Bay of Seine.",
+    "question": "According to the scientific literature: D1 – Pelagic habitats The same paper, research, measured mean annual biomasses of zooplankton and phy - toplankton from data collected from monitoring the quality of water bodies in the Bay of Seine?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "These artificial structures function as reef habitats, supporting dense assemblages of sessile epifauna, including Mytilus edulis and barnacles, which increase local biomass and structural complexity (Krone et al., 2013).",
+    "question": "According to the scientific literature: These artificial structures function as reef habitats, supporting dense assemblages of sessile epifauna, including Mytilus edulis and barnacles, which increase local biomass and structural complexity?",
+    "citations": [
+      {
+        "first_author": "Krone",
+        "year": 2013
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecss.2013.03.012"
+    ]
+  },
+  {
+    "claim_text": "Ecological modelling by Raoux et al. (2017) suggests that OWFs enhance secondary production by favouring suspension-feeding organisms, thereby modifying energy transfer pathways and benthic–pelagic coupling.",
+    "question": "According to the scientific literature: Ecological modelling by research suggests that OWFs enhance secondary production by favouring suspension-feeding organisms, thereby modifying energy transfer pathways and benthic–pelagic coupling?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "Spielmann et al. (2023) showed that partial removal strategies, such as retaining scour protection or cutting foundations above the seabed, preserve critical hard-substrate habitat and minimise biodiversity loss, where - as complete removal causes substantial declines in associated epibenthic macrofauna.",
+    "question": "According to the scientific literature: Research showed that partial removal strategies, such as retaining scour protection or cutting foundations above the seabed, preserve critical hard-substrate habitat and minimise biodiversity loss, where - as complete removal causes substantial declines in associated epibenthic macrofauna?",
+    "citations": [
+      {
+        "first_author": "Spielmann",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jenvman.2023.119022"
+    ]
+  },
+  {
+    "claim_text": "Studies found that several species of benthic macrofauna (invertebrates) are associated with wind turbine foundations (De Mesel, 2015) and that offshore structures and natural substrates serve as important spawning and settling sites for various sedentary species with pelagic larval phases (Van de Molen, 2018).",
+    "question": "According to the scientific literature: Studies found that several species of benthic macrofauna (invertebrates) are associated with wind turbine foundations (De Mesel, 2015) and that offshore structures and natural substrates serve as important spawning and settling sites for various sedentary species with pelagic larval phases?",
+    "citations": [
+      {
+        "first_author": "Mesel",
+        "year": 2015
+      },
+      {
+        "first_author": "Van de Molen",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s41598-018-32912-2"
+    ]
+  },
+  {
+    "claim_text": "Wind farm structures are predicted to increase benthos biomass, and as a consequence, provide more resources for fish benthic feeders, as well as top predators such as sole and cod (Raoux et al., 2018).",
+    "question": "According to the scientific literature: Wind farm structures are predicted to increase benthos biomass, and as a consequence, provide more resources for fish benthic feeders, as well as top predators such as sole and cod?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2018.07.014"
+    ]
+  },
+  {
+    "claim_text": "As a result, OWFs attract species of economic interest, such as plaice or lobster (shown in greater catch rates around monopiles (Roach et al., 2018; Werner et al., 2024; Wright et al., 2020), potentially altering local ecosystems and predator-prey dynamics (Raoux et al., 2018).",
+    "question": "According to the scientific literature: As a result, OWFs attract species of economic interest, such as plaice or lobster (shown in greater catch rates around monopiles , potentially altering local ecosystems and predator-prey dynamics?",
+    "citations": [
+      {
+        "first_author": "Roach",
+        "year": 2018
+      },
+      {
+        "first_author": "Werner",
+        "year": 2024
+      },
+      {
+        "first_author": "Wright",
+        "year": 2020
+      },
+      {
+        "first_author": "Raoux",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2018.07.014"
+    ]
+  },
+  {
+    "claim_text": "The restriction of areas for fishing may increase predator species (e.g., cod, lobster) around OWFs, altering prey populations (Raoux et al., 2018), and changing fish communities on a small scale.",
+    "question": "According to the scientific literature: The restriction of areas for fishing may increase predator species (e.g., cod, lobster) around OWFs, altering prey populations , and changing fish communities on a small scale?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2018.07.014"
+    ]
+  },
+  {
+    "claim_text": "In turn, this can cause unexpected ecosystem changes in areas outside OWFs increasing pressure on certain species and leading to secondary ecological consequences (Raoux et al., 2018).",
+    "question": "According to the scientific literature: In turn, this can cause unexpected ecosystem changes in areas outside OWFs increasing pressure on certain species and leading to secondary ecological consequences?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2018
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2018.07.014"
+    ]
+  },
+  {
+    "claim_text": "Spillover and edge effects: The absence of fishing (usually forbidden within wind farms) may increase biodiversity and the abundance of benthopelagic and benthic species that use OWFs for shelter and as feeding grounds, with potential, positive spillover effects (Mavraki et al., 2021).",
+    "question": "According to the scientific literature: Spillover and edge effects: The absence of fishing (usually forbidden within wind farms) may increase biodiversity and the abundance of benthopelagic and benthic species that use OWFs for shelter and as feeding grounds, with potential, positive spillover effects?",
+    "citations": [
+      {
+        "first_author": "Mavraki",
+        "year": 2021
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2020.00379"
+    ]
+  },
+  {
+    "claim_text": "If predators concentrate in OWFs, it could impact surrounding prey species beyond the wind farm boundaries (Halouani et al., 2020).",
+    "question": "According to the scientific literature: If predators concentrate in OWFs, it could impact surrounding prey species beyond the wind farm boundaries?",
+    "citations": [
+      {
+        "first_author": "Halouani",
+        "year": 2020
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jmarsys.2020.103434"
+    ]
+  },
+  {
+    "claim_text": "Do negative effects from habitat loss recover? (Halouani et al., 2020).",
+    "question": "According to the scientific literature: Do negative effects from habitat loss recover??",
+    "citations": [
+      {
+        "first_author": "Halouani",
+        "year": 2020
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jmarsys.2020.103434"
+    ]
+  },
+  {
+    "claim_text": "Cod predominantly occurs at low ambient light levels (dusk and dawn), likely balancing foraging efficiency with predation risk (Reubens et al., 2014).",
+    "question": "According to the scientific literature: Cod predominantly occurs at low ambient light levels (dusk and dawn), likely balancing foraging efficiency with predation risk?",
+    "citations": [
+      {
+        "first_author": "Reubens",
+        "year": 2014
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.marenvres.2013.05.013"
+    ]
+  },
+  {
+    "claim_text": "Biomass changes and trophic functioning following OWF construction: Comparative modelling scenarios before and after OWF construction show significant increases in biomass across demersal fish, pelagic species, and invertebrates (Halouani et al., 2020; Raoux et al., 2017).",
+    "question": "According to the scientific literature: Biomass changes and trophic functioning following OWF construction: Comparative modelling scenarios before and after OWF construction show significant increases in biomass across demersal fish, pelagic species, and invertebrates?",
+    "citations": [
+      {
+        "first_author": "Halouani",
+        "year": 2020
+      },
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jmarsys.2020.103434",
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "Overall, the literature indicates that areas adjacent to the OWF instalments exhibit increased biomass, while bordering zones show no significant change, and areas further away display a decrease in biomass (Halouani et al., 2020).",
+    "question": "According to the scientific literature: Overall, the literature indicates that areas adjacent to the OWF instalments exhibit increased biomass, while bordering zones show no significant change, and areas further away display a decrease in biomass?",
+    "citations": [
+      {
+        "first_author": "Halouani",
+        "year": 2020
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jmarsys.2020.103434"
+    ]
+  },
+  {
+    "claim_text": "In contrast, in the post-construction scenario, the system shifted toward greater detritivory, driven by an increase in mussel biomass, which became a dominant energy pathway (Raoux et al., 2017).",
+    "question": "According to the scientific literature: In contrast, in the post-construction scenario, the system shifted toward greater detritivory, driven by an increase in mussel biomass, which became a dominant energy pathway?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "Specifically, Ecosystem Efficiency (EE) rose by 5%, and the Detritivory/Herbivory (D/H) ratio increased by 18.8%, with detritivory and herbivory reaching 1.5 times and 1.2 times their pre-OWF levels, respectively (Raoux et al., 2017).",
+    "question": "According to the scientific literature: Specifically, Ecosystem Efficiency (EE) rose by 5%, and the Detritivory/Herbivory (D/H) ratio increased by 18.8%, with detritivory and herbivory reaching 1.5 times and 1.2 times their pre-OWF levels, respectively?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "Wind wakes effects on primary production: Studies demonstrated that wind wakes from OWFs can lead to significant changes in primary production and oxygen levels in the North Sea, potentially impacting food web dynamics (Daewel et al., 2022).",
+    "question": "According to the scientific literature: Wind wakes effects on primary production: Studies demonstrated that wind wakes from OWFs can lead to significant changes in primary production and oxygen levels in the North Sea, potentially impacting food web dynamics?",
+    "citations": [
+      {
+        "first_author": "Daewel",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s43247-022-00625-0"
+    ]
+  },
+  {
+    "claim_text": "Additionally, climate change amplifies these ecological shifts, impacting key commercial species such as sole (Solea solea), cod, and king scallops (Pecten maximus) (Raoux et al., 2017).",
+    "question": "According to the scientific literature: Additionally, climate change amplifies these ecological shifts, impacting key commercial species such as sole (Solea solea), cod, and king scallops (Pecten maximus)?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "It was estimated that changes in the spatial distribution patterns of Chl-a in the sea surface would follow the construction of OWF (Lu et al., 2022).",
+    "question": "According to the scientific literature: It was estimated that changes in the spatial distribution patterns of Chl-a in the sea surface would follow the construction of OWF?",
+    "citations": [
+      {
+        "first_author": "Lu",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2022.1008005"
+    ]
+  },
+  {
+    "claim_text": "These reported impacts vary spatially in the southern North Sea, with a predicted decrease in the centre of a large cluster of OWFs and areas with a predicted increase of up to 10% in net primary productivity (Daewel et al., 2022; Slavik et al., 2019) .",
+    "question": "According to the scientific literature: These reported impacts vary spatially in the southern North Sea, with a predicted decrease in the centre of a large cluster of OWFs and areas with a predicted increase of up to 10% in net primary productivity?",
+    "citations": [
+      {
+        "first_author": "Daewel",
+        "year": 2022
+      },
+      {
+        "first_author": "Slavik",
+        "year": 2019
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s43247-022-00625-0"
+    ]
+  },
+  {
+    "claim_text": "In the empirical study, however, no difference in light availability was observed in three of four transects, both within and outside of OWFs, with a 20% reduction in 1% photosynthetically active radiation depth observed in the fourth transect (Daewel et al., 2022; Floeter et al., 2017).",
+    "question": "According to the scientific literature: In the empirical study, however, no difference in light availability was observed in three of four transects, both within and outside of OWFs, with a 20% reduction in 1% photosynthetically active radiation depth observed in the fourth transect?",
+    "citations": [
+      {
+        "first_author": "Daewel",
+        "year": 2022
+      },
+      {
+        "first_author": "Floeter",
+        "year": 2017
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s43247-022-00625-0"
+    ]
+  },
+  {
+    "claim_text": "Only one paper covered an assessment from 1980 to 2010 (Spielmann et al. 2023) ; the remainder spanned the period from 2001 to 2021.",
+    "question": "According to the scientific literature: Only one paper covered an assessment from 1980 to 2010 ; the remainder spanned the period from 2001 to 2021?",
+    "citations": [
+      {
+        "first_author": "Spielmann",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jenvman.2023.119022"
+    ]
+  },
+  {
+    "claim_text": "Scour protections on the seabed are suggested as the main cause of elevated SPM concentrations (Baeye & Fettweis, 2015).",
+    "question": "According to the scientific literature: Scour protections on the seabed are suggested as the main cause of elevated SPM concentrations?",
+    "citations": [
+      {
+        "first_author": "Baeye",
+        "year": 2015
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00367-015-0404-8"
+    ]
+  },
+  {
+    "claim_text": "Moreover, scour protections of OWF foundations appear to be highly relevant for colonisation of epibenthic communities and for preserving macrofauna after the end of life of OWFs (Kingma et al., 2024; Spielmann et al., 2023).",
+    "question": "According to the scientific literature: Moreover, scour protections of OWF foundations appear to be highly relevant for colonisation of epibenthic communities and for preserving macrofauna after the end of life of OWFs?",
+    "citations": [
+      {
+        "first_author": "Kingma",
+        "year": 2024
+      },
+      {
+        "first_author": "Spielmann",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.seares.2024.102502",
+      "10.1016/j.jenvman.2023.119022"
+    ]
+  },
+  {
+    "claim_text": "Conversely, however, surrounding OWF areas show a declining rate in both deposition and mineralisation processes, as well as carbon storage, indicating a spatial shift in benthic biogeochemical functioning due to the presence and future expansion of OWF developments (De Borger et al., 2021a).",
+    "question": "According to the scientific literature: Conversely, however, surrounding OWF areas show a declining rate in both deposition and mineralisation processes, as well as carbon storage, indicating a spatial shift in benthic biogeochemical functioning due to the presence and future expansion of OWF developments (De Borger et al., 2021a)?",
+    "citations": [
+      {
+        "first_author": "Borger",
+        "year": 2021
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2021.632243"
+    ]
+  },
+  {
+    "claim_text": "While immediate OWF areas may act as temporary carbon sinks on permeable sediments, activities such as construction, dredging, bottom trawling and decommissioning can lead to sediment disturbance and re-release of stored carbon (De Borger et al., 2021a).",
+    "question": "According to the scientific literature: While immediate OWF areas may act as temporary carbon sinks on permeable sediments, activities such as construction, dredging, bottom trawling and decommissioning can lead to sediment disturbance and re-release of stored carbon (De Borger et al., 2021a)?",
+    "citations": [
+      {
+        "first_author": "Borger",
+        "year": 2021
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2021.632243"
+    ]
+  },
+  {
+    "claim_text": "The effect of bottom trawling bans (500 m) on the seabed after construction shows no spill-over effects on short-term studies, and no long-term effects (reversion of effects) if fisheries come back afterwards (Porz et al., 2024).",
+    "question": "According to the scientific literature: The effect of bottom trawling bans (500 m) on the seabed after construction shows no spill-over effects on short-term studies, and no long-term effects (reversion of effects) if fisheries come back afterwards?",
+    "citations": [
+      {
+        "first_author": "Porz",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.5194/bg-21-2547-2024"
+    ]
+  },
+  {
+    "claim_text": "Moreover, standardised procedures and long-term surveys for monitoring programmes and dismantling remain to be developed (De Borger et al., 2021b; Spielmann et al., 2023).",
+    "question": "According to the scientific literature: Moreover, standardised procedures and long-term surveys for monitoring programmes and dismantling remain to be developed (De Borger et al., 2021b; Spielmann et al., 2023)?",
+    "citations": [
+      {
+        "first_author": "Borger",
+        "year": 2021
+      },
+      {
+        "first_author": "Spielmann",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2021.632243",
+      "10.1016/j.jenvman.2023.119022"
+    ]
+  },
+  {
+    "claim_text": "For SPM plume dynamics, considering the rapid expansion of OWFs, further studies on the wider-scale impacts of artificial hard substrates are needed (Baeye & Fettweis, 2015).",
+    "question": "According to the scientific literature: For SPM plume dynamics, considering the rapid expansion of OWFs, further studies on the wider-scale impacts of artificial hard substrates are needed?",
+    "citations": [
+      {
+        "first_author": "Baeye",
+        "year": 2015
+      }
+    ],
+    "matched_dois": [
+      "10.1007/s00367-015-0404-8"
+    ]
+  },
+  {
+    "claim_text": "OWF arrays suppress downstream tidal currents by 5–15%, disrupting natural sediment transport and increasing the risk of erosion, and divert lateral flows by up to 10%, redistributing sediment patterns (Daewel et al., 2022).",
+    "question": "According to the scientific literature: OWF arrays suppress downstream tidal currents by 5–15%, disrupting natural sediment transport and increasing the risk of erosion, and divert lateral flows by up to 10%, redistributing sediment patterns?",
+    "citations": [
+      {
+        "first_author": "Daewel",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s43247-022-00625-0"
+    ]
+  },
+  {
+    "claim_text": "Wave refraction focuses on sensitive habitats such as salt marshes (Velarde et al., 2019).",
+    "question": "According to the scientific literature: Wave refraction focuses on sensitive habitats such as salt marshes?",
+    "citations": [
+      {
+        "first_author": "Velarde",
+        "year": 2019
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.apor.2019.101947"
+    ]
+  },
+  {
+    "claim_text": "In stratified waters, turbulence generated by turbines can disrupt thermal stratification, decreasing vertical temperature gradients by 8–12% and altering nutrient cycling, which can lead to increased hy - poxia (Carpenter et al., 2016; Christiansen et al., 2022).",
+    "question": "According to the scientific literature: In stratified waters, turbulence generated by turbines can disrupt thermal stratification, decreasing vertical temperature gradients by 8–12% and altering nutrient cycling, which can lead to increased hy - poxia?",
+    "citations": [
+      {
+        "first_author": "Carpenter",
+        "year": 2016
+      },
+      {
+        "first_author": "Christiansen",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2022.1006647",
+      "10.3389/fmars.2022.818501",
+      "10.1371/journal.pone.0160830"
+    ]
+  },
+  {
+    "claim_text": "Residual currents can be reduced by as much as 15% through the collective wake effects of several farms, thereby hindering natural sediment and contaminant dispersal (Daewel et al., 2022).",
+    "question": "According to the scientific literature: Residual currents can be reduced by as much as 15% through the collective wake effects of several farms, thereby hindering natural sediment and contaminant dispersal?",
+    "citations": [
+      {
+        "first_author": "Daewel",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s43247-022-00625-0"
+    ]
+  },
+  {
+    "claim_text": "Sea - bed trawling disturbs sediment, thus increasing turbidity caused by OWF construction activities (Christiansen et al., 2022).",
+    "question": "According to the scientific literature: Sea - bed trawling disturbs sediment, thus increasing turbidity caused by OWF construction activities?",
+    "citations": [
+      {
+        "first_author": "Christiansen",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2022.818501",
+      "10.3389/fmars.2022.1006647"
+    ]
+  },
+  {
+    "claim_text": "Climate change increases coastal erosion due to sea level rise and stronger storms, a risk that is amplified when sea level rise impairs OWF-induced wave atten - uation, thereby reducing sediment replenishment (Ghadirian et al., 2021).",
+    "question": "According to the scientific literature: Climate change increases coastal erosion due to sea level rise and stronger storms, a risk that is amplified when sea level rise impairs OWF-induced wave atten - uation, thereby reducing sediment replenishment?",
+    "citations": [
+      {
+        "first_author": "Ghadirian",
+        "year": 2021
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.coastaleng.2020.103832"
+    ]
+  },
+  {
+    "claim_text": "Monopile turbines are included in 80% of the studies using numerical models or measured in rather short time frames, severely limiting the validation of long-term effects (Van Berkel et al., 2020).",
+    "question": "According to the scientific literature: Monopile turbines are included in 80% of the studies using numerical models or measured in rather short time frames, severely limiting the validation of long-term effects (Van Berkel et al., 2020)?",
+    "citations": [
+      {
+        "first_author": "Berkel",
+        "year": 2020
+      }
+    ],
+    "matched_dois": [
+      "10.5670/oceanog.2020.410"
+    ]
+  },
+  {
+    "claim_text": "Ecologically, few studies trace hydrographic changes through food webs, and while stratification perturbations may alter zooplankton distributions, their links to fish stocks remain unexplored (Christiansen et al., 2022).",
+    "question": "According to the scientific literature: Ecologically, few studies trace hydrographic changes through food webs, and while stratification perturbations may alter zooplankton distributions, their links to fish stocks remain unexplored?",
+    "citations": [
+      {
+        "first_author": "Christiansen",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.3389/fmars.2022.818501",
+      "10.3389/fmars.2022.1006647"
+    ]
+  },
+  {
+    "claim_text": "No impact on swim speed nor turning behaviour, but larvae appear to swim towards the source (Cresci et al., 2023).",
+    "question": "According to the scientific literature: No impact on swim speed nor turning behaviour, but larvae appear to swim towards the source?",
+    "citations": [
+      {
+        "first_author": "Cresci",
+        "year": 2023
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s42003-023-04728-y"
+    ]
+  },
+  {
+    "claim_text": "Among the most common pressures, fishing and OWF effects have been investigated, especially the redistribution of marine mobile species resulting from the displacement of fishing pressure due to closed areas around OWFs and the concentration of commercial species through the reef effect (Raoux et al., 2017; Werner et al., 2024).",
+    "question": "According to the scientific literature: Among the most common pressures, fishing and OWF effects have been investigated, especially the redistribution of marine mobile species resulting from the displacement of fishing pressure due to closed areas around OWFs and the concentration of commercial species through the reef effect?",
+    "citations": [
+      {
+        "first_author": "Raoux",
+        "year": 2017
+      },
+      {
+        "first_author": "Werner",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.ecolind.2016.07.037"
+    ]
+  },
+  {
+    "claim_text": "The distance of avoidance has been quantified, showing that for those species, D1C5 on maintaining species habitat areas7 is likely not going to be met in areas cumulating multiple OWFs (see, for instance (Garthe et al., 2023; Mendel et al., 2019; Peschko et al., 2024).",
+    "question": "According to the scientific literature: The distance of avoidance has been quantified, showing that for those species, D1C5 on maintaining species habitat areas7 is likely not going to be met in areas cumulating multiple OWFs (see, for instance?",
+    "citations": [
+      {
+        "first_author": "Garthe",
+        "year": 2023
+      },
+      {
+        "first_author": "Mendel",
+        "year": 2019
+      },
+      {
+        "first_author": "Peschko",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s41598-023-31601-z",
+      "10.1007/s10531-023-02759-9"
+    ]
+  },
+  {
+    "claim_text": "Currents can be reduced by 15% and alter the natural dispersal of sediments and contaminants (Daewel et al., 2022).",
+    "question": "According to the scientific literature: Currents can be reduced by 15% and alter the natural dispersal of sediments and contaminants?",
+    "citations": [
+      {
+        "first_author": "Daewel",
+        "year": 2022
+      }
+    ],
+    "matched_dois": [
+      "10.1038/s43247-022-00625-0"
+    ]
+  },
+  {
+    "claim_text": "The structure of the ecosystem is altered by the introduction of hard-bottom fauna into soft-bottom areas, resulting in changed food web dynamics, increased species abundances, modified prey populations, and competition (De Troch et al., 2013; Halouani et al., 2020; Maar et al., 2009).",
+    "question": "According to the scientific literature: The structure of the ecosystem is altered by the introduction of hard-bottom fauna into soft-bottom areas, resulting in changed food web dynamics, increased species abundances, modified prey populations, and competition (De Troch et al., 2013; Halouani et al., 2020; Maar et al., 2009)?",
+    "citations": [
+      {
+        "first_author": "Troch",
+        "year": 2013
+      },
+      {
+        "first_author": "Halouani",
+        "year": 2020
+      },
+      {
+        "first_author": "Maar",
+        "year": 2009
+      }
+    ],
+    "matched_dois": [
+      "10.1016/j.jmarsys.2020.103434"
+    ]
+  },
+  {
+    "claim_text": "Changes in hydrographic conditions at the OWF sites cause an increase in organic matter and enhanced productivity, which are expected to affect higher trophic levels, such as mobile demersal and pelagic megafauna (Coates et al., 2014; Gutow et al., 2014; Porz et al., 2024).",
+    "question": "According to the scientific literature: Changes in hydrographic conditions at the OWF sites cause an increase in organic matter and enhanced productivity, which are expected to affect higher trophic levels, such as mobile demersal and pelagic megafauna?",
+    "citations": [
+      {
+        "first_author": "Coates",
+        "year": 2014
+      },
+      {
+        "first_author": "Gutow",
+        "year": 2014
+      },
+      {
+        "first_author": "Porz",
+        "year": 2024
+      }
+    ],
+    "matched_dois": [
+      "10.5194/bg-21-2547-2024"
+    ]
+  }
+]
