@@ -1,0 +1,3910 @@
+{
+  "n_questions": 67,
+  "aggregate_metrics": {
+    "recall@1": 0.2537313432835821,
+    "hit@1": 0.26865671641791045,
+    "recall@3": 0.3880597014925373,
+    "hit@3": 0.40298507462686567,
+    "recall@5": 0.41044776119402987,
+    "hit@5": 0.43283582089552236,
+    "recall@10": 0.49751243781094523,
+    "hit@10": 0.5223880597014925
+  },
+  "results": [
+    {
+      "question": "According to the scientific literature: Likewise, research illustrated significant avoidance close to the turbines from 0 to 140m?",
+      "expected_dois": [
+        "10.1007/s00227-024-04542-y"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.5651119947433472
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.5709754824638367
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.5816854238510132
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.5853921175003052
+        },
+        {
+          "doi": "10.5194/wes-11-1077-2026",
+          "score": 0.5859082937240601
+        },
+        {
+          "doi": "10.5194/wes-9-697-2024",
+          "score": 0.5862698554992676
+        },
+        {
+          "doi": "10.1038/s44183-025-00121-w",
+          "score": 0.5907622575759888
+        },
+        {
+          "doi": "10.1127/metz_2020_1023",
+          "score": 0.5948190689086914
+        },
+        {
+          "doi": "10.1021/acs.est.0c00070",
+          "score": 0.6003119349479675
+        },
+        {
+          "doi": "10.1111/csp2.13114",
+          "score": 0.6005781888961792
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: research predicted the highest densities furthest from OWFs, supporting an avoidance effect?",
+      "expected_dois": [
+        "10.3389/fmars.2024.1344013"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecoinf.2024.102981",
+          "score": 0.430503249168396
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.45143455266952515
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.5011450052261353
+        },
+        {
+          "doi": "10.1016/j.ecoinf.2024.102981",
+          "score": 0.5047543048858643
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.5085910558700562
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.510944664478302
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.5135732889175415
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.5156336426734924
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.5178532600402832
+        },
+        {
+          "doi": "10.1016/j.ecoinf.2024.102981",
+          "score": 0.5213309526443481
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Flight height studies of sandwich tern (Thalasseus sandvicensis) revealed frequent overlap with rotor-swept zones, with a mean height of ~13 m, suggesting potential collision risk, especially during foraging and transit flights?",
+      "expected_dois": [
+        "10.5253/arde.v110i1.a8"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.414093554019928
+        },
+        {
+          "doi": "10.1021/acs.est.0c00070",
+          "score": 0.4179759621620178
+        },
+        {
+          "doi": "10.1021/acs.est.0c00070",
+          "score": 0.42167091369628906
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.424907922744751
+        },
+        {
+          "doi": "10.1111/csp2.13114",
+          "score": 0.4287060797214508
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.42894983291625977
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.42995119094848633
+        },
+        {
+          "doi": "10.1007/978-3-658-02462-8",
+          "score": 0.4305271506309509
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.43077531456947327
+        },
+        {
+          "doi": "10.1111/csp2.13114",
+          "score": 0.4348004162311554
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Sulidae (Gannets): Northern Gannet ( Morus bassanus) Several studies describe seasonal or spatial variation in gannet abundance; abundance may peak in winter months (December–March), with juveniles in late summer?",
+      "expected_dois": [
+        "10.3389/fmars.2024.1344013",
+        "10.1007/s00227-024-04542-y"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.41555988788604736
+        },
+        {
+          "doi": "10.1007/s00227-016-2918-7",
+          "score": 0.42410796880722046
+        },
+        {
+          "doi": "10.5194/os-13-337-2017",
+          "score": 0.4437396824359894
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.45100390911102295
+        },
+        {
+          "doi": "10.1007/s00227-016-2922-y",
+          "score": 0.45120689272880554
+        },
+        {
+          "doi": "10.1007/s00227-016-2922-y",
+          "score": 0.4519661068916321
+        },
+        {
+          "doi": "10.5194/os-13-337-2017",
+          "score": 0.4675123691558838
+        },
+        {
+          "doi": "10.5194/os-13-337-2017",
+          "score": 0.4727831780910492
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.47640037536621094
+        },
+        {
+          "doi": "10.1007/s00227-016-2922-y",
+          "score": 0.481989324092865
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.5,
+        "hit@1": 1,
+        "recall@3": 0.5,
+        "hit@3": 1,
+        "recall@5": 0.5,
+        "hit@5": 1,
+        "recall@10": 0.5,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Research found that juveniles spend more time in high-risk OWF zones than adults?",
+      "expected_dois": [
+        "10.1007/s00227-024-04542-y"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.5825092196464539
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.5978021621704102
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.6067307591438293
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.6120762825012207
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.6132677793502808
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.6152544021606445
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.6189612150192261
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.623775839805603
+        },
+        {
+          "doi": "10.1016/j.marpol.2017.01.013",
+          "score": 0.6259512901306152
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.6261494159698486
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: research; research; research, research, and research provide evidence of gannets avoiding entering OWFs, especially within 250 m of turbines, and tend to fly higher (17.9 m) when inside OWFs than outside (14.4 m)?",
+      "expected_dois": [
+        "10.5194/os-13-337-2017"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.46819043159484863
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.4787415862083435
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.49064069986343384
+        },
+        {
+          "doi": "10.1093/icesjms_fsz199",
+          "score": 0.501632571220398
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.5070988535881042
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.5077832341194153
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.5104921460151672
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.5110478401184082
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.5121957659721375
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.118131",
+          "score": 0.5159021615982056
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Gaviiformes (Lot tons / Divers): Divers ( Gaviidae spp.); Loons (Gavia spp.) research found no consistent trend in diver ( Gaviidae spp.) abundance across their study area, though the lowest estimates occurred in 2008–2009, prior to OWF construction?",
+      "expected_dois": [
+        "10.3389/fmars.2021.701332"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2021.701332",
+          "score": 0.388348251581192
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.4257090091705322
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.4298916757106781
+        },
+        {
+          "doi": "10.1007/s00227-019-3523-3",
+          "score": 0.43233785033226013
+        },
+        {
+          "doi": "10.3389/fmars.2021.701332",
+          "score": 0.4347306191921234
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.4451461434364319
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.44607383012771606
+        },
+        {
+          "doi": "10.1007/s00227-019-3523-3",
+          "score": 0.44736722111701965
+        },
+        {
+          "doi": "10.1007/s00227-019-3523-3",
+          "score": 0.4542442858219147
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.45458510518074036
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Likewise, research found that up to 68% of the guillemot population in the German North Sea will experience habitat loss?",
+      "expected_dois": [
+        "10.1007/s10531-023-02759-9"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.3716987669467926
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.4095594584941864
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.4165825843811035
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.43524593114852905
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.43952757120132446
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.45545631647109985
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.45812347531318665
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.4644264876842499
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.48466756939888
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.48897919058799744
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Phalacrocoracidae (Cormorants and Shags): Cormorants ( Phalacrocoracidae sp ); European shags (Phalacrocorax aristotelis) A comparatively little-studied group, research found that cormorant ( Phalacrocoracidae spp.) abundance distribution is very coastal, with consistent year-round presence along the French and Belgian coasts?",
+      "expected_dois": [
+        "10.3389/fmars.2024.1344013"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s00227-020-3655-5",
+          "score": 0.39889320731163025
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.4017794132232666
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.4123677611351013
+        },
+        {
+          "doi": "10.1007/s00227-019-3523-3",
+          "score": 0.42121267318725586
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.42440006136894226
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.4496077299118042
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.47076088190078735
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.4806835651397705
+        },
+        {
+          "doi": "10.1007/s00227-019-3523-3",
+          "score": 0.49132877588272095
+        },
+        {
+          "doi": "10.3389/fmars.2020.606609",
+          "score": 0.4986473321914673
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: research identified spatial overlap between the foraging areas of European shags ( Phalacrocorax aristotelis ) around Chausey, Normandy and zones of planned or operational OWFs?",
+      "expected_dois": [
+        "10.1007/s00227-020-3655-5"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s00227-020-3655-5",
+          "score": 0.34098196029663086
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.48251670598983765
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.4828721880912781
+        },
+        {
+          "doi": "10.1007/s00227-020-3655-5",
+          "score": 0.484478235244751
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.48508167266845703
+        },
+        {
+          "doi": "10.3389/fmars.2022.959375",
+          "score": 0.4896279573440552
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.5029866099357605
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.5055092573165894
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.5062272548675537
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.5093979239463806
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Waders (shorebirds): Eurasian curlew ( Numenius arquata); Other non-pelagic shorebirds research outline that Eurasian curlews exhibited significantly lower flight alti - tudes across the Baltic Sea, and migration intensity peaked at night during spring?",
+      "expected_dois": [
+        "10.1016/j.jenvman.2023.118131"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.27930906414985657
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.29226577281951904
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.34161442518234253
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.3488147556781769
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.3801039457321167
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.38460126519203186
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.38934651017189026
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.3973180651664734
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.3974709212779999
+        },
+        {
+          "doi": "10.1111/acv.12817",
+          "score": 0.39795300364494324
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Research demonstrated that non-pelagic shorebirds did not exhibit significant changes in horizontal movement patterns in response to the OWFs?",
+      "expected_dois": [
+        "10.1016/j.jenvman.2023.118131"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.375005304813385
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.38663697242736816
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.39233726263046265
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.39586031436920166
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.3997480273246765
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.4015447497367859
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.40763285756111145
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.41064512729644775
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.41325968503952026
+        },
+        {
+          "doi": "10.1007/s00227-021-03954-4",
+          "score": 0.42006343603134155
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: research predicted harbour porpoises prefer offshore waters over coastal areas, with higher densities beyond 20 km from shore?",
+      "expected_dois": [
+        "10.3389/fmars.2024.1344013"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1371/journal.pone.0176653",
+          "score": 0.3099435567855835
+        },
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.31728172302246094
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.32426372170448303
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.3463146388530731
+        },
+        {
+          "doi": "10.1007/s00227-017-3081-5",
+          "score": 0.3538585603237152
+        },
+        {
+          "doi": "10.1088/1748-9326_7_4_045101",
+          "score": 0.3563261330127716
+        },
+        {
+          "doi": "10.1371/journal.pone.0176653",
+          "score": 0.3569709360599518
+        },
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.3574109375476837
+        },
+        {
+          "doi": "10.1371/journal.pone.0176653",
+          "score": 0.3631086051464081
+        },
+        {
+          "doi": "10.3389/fmars.2020.606609",
+          "score": 0.3632957339286804
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Dolphins: Bottlenose dolphin ( Tursiops truncatus) research observed no significant change in the occurrence of two dolphin species before and after OWF construction at gravity-based foundations?",
+      "expected_dois": [
+        "10.1007/s00227-023-04240-1"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.27168092131614685
+        },
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.31455668807029724
+        },
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.37254637479782104
+        },
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.378387987613678
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.3841173052787781
+        },
+        {
+          "doi": "10.3389/fmars.2025.1539143",
+          "score": 0.40993863344192505
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.4130866229534149
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.4156321883201599
+        },
+        {
+          "doi": "10.1093/icesjms_fsad150",
+          "score": 0.4305889308452606
+        },
+        {
+          "doi": "10.3389/fmars.2020.00230",
+          "score": 0.43126147985458374
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: research modelled ecosystem responses to offshore wind farms for a number of trophic groups and found that the biomass of bottlenose dolphins ( Tursiops truncatus) increased after OWF construction?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/978-3-030-05520-2_10",
+          "score": 0.2552782893180847
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.26394471526145935
+        },
+        {
+          "doi": "10.1016/j.marenvres.2023.106061",
+          "score": 0.269147127866745
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.27566519379615784
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.2785762846469879
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.27933984994888306
+        },
+        {
+          "doi": "10.1016/j.ecolind.2018.07.014",
+          "score": 0.2797894775867462
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.2819131910800934
+        },
+        {
+          "doi": "10.3389/fmars.2024.1379331",
+          "score": 0.2841927409172058
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.28422442078590393
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Seals: Harbour ( Phoca vitulina) and Grey seals (Halichoerus grypus ) Similarly, research provided some indication that both harbour ( Phoca vitulina) and grey seals ( Halichoerus grypus ) may benefit indirectly from increases in prey biomass?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.4149892330169678
+        },
+        {
+          "doi": "10.3389/fmars.2020.00230",
+          "score": 0.46223393082618713
+        },
+        {
+          "doi": "10.3389/fmars.2020.00230",
+          "score": 0.47336554527282715
+        },
+        {
+          "doi": "10.1578/am.51.4.2025.319",
+          "score": 0.4790025055408478
+        },
+        {
+          "doi": "10.3389/fmars.2021.769680",
+          "score": 0.48073187470436096
+        },
+        {
+          "doi": "10.12911/22998993_196200",
+          "score": 0.49237000942230225
+        },
+        {
+          "doi": "10.1016/j.ecolind.2018.07.014",
+          "score": 0.4946558177471161
+        },
+        {
+          "doi": "10.1578/am.51.4.2025.319",
+          "score": 0.4946786165237427
+        },
+        {
+          "doi": "10.1007/s00227-023-04240-1",
+          "score": 0.494867205619812
+        },
+        {
+          "doi": "10.1016/j.scitotenv.2021.146847",
+          "score": 0.49814680218696594
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: research underscore the possibility of a spatial gradient in bat presence, with western OWF areas showing higher bat activity than those in the South, East, or northern parts of the North Sea?",
+      "expected_dois": [
+        "10.1007/s10661-023-11590-2"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s10661-023-11590-2",
+          "score": 0.3602660894393921
+        },
+        {
+          "doi": "10.1007/s10661-023-11590-2",
+          "score": 0.4141134023666382
+        },
+        {
+          "doi": "10.1007/s10661-023-11590-2",
+          "score": 0.41965508460998535
+        },
+        {
+          "doi": "10.1007/s10661-023-11590-2",
+          "score": 0.42364853620529175
+        },
+        {
+          "doi": "10.1021/acs.est.0c00070",
+          "score": 0.44921207427978516
+        },
+        {
+          "doi": "10.1007/s10661-023-11590-2",
+          "score": 0.44989556074142456
+        },
+        {
+          "doi": "10.1021/acs.est.0c00070",
+          "score": 0.44997096061706543
+        },
+        {
+          "doi": "10.1016/j.jmarsys.2020.103434",
+          "score": 0.458031564950943
+        },
+        {
+          "doi": "10.1186/s40462-024-00520-7",
+          "score": 0.45887500047683716
+        },
+        {
+          "doi": "10.1186/s40462-024-00520-7",
+          "score": 0.4595595896244049
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: D1 - Fish The presence of offshore wind farms can modify fish distributions and composition by attracting species to artificial structures and reducing the abundance of species that rely on soft-bottom habitats?",
+      "expected_dois": [
+        "10.1002/edn3.575"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.marpol.2023.105941",
+          "score": 0.2886258065700531
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.29399725794792175
+        },
+        {
+          "doi": "10.1038/s41598-025-01541-x",
+          "score": 0.2972410321235657
+        },
+        {
+          "doi": "10.1098/rsos.240339",
+          "score": 0.30109870433807373
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.30435752868652344
+        },
+        {
+          "doi": "10.3389/fmars.2021.629230",
+          "score": 0.30881452560424805
+        },
+        {
+          "doi": "10.3389/fmars.2025.1561347",
+          "score": 0.309160441160202
+        },
+        {
+          "doi": "10.1021/acs.est.2c07797",
+          "score": 0.3117738962173462
+        },
+        {
+          "doi": "10.3389/fmars.2026.1765872",
+          "score": 0.31461381912231445
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3148188889026642
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: They also exhibit strong site fidelity, particularly in summer, though some remain year-round?",
+      "expected_dois": [
+        "10.1016/j.marenvres.2013.05.013"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1098/rsos.240339",
+          "score": 0.5777976512908936
+        },
+        {
+          "doi": "10.5194/esd-8-1223-2017",
+          "score": 0.6243687868118286
+        },
+        {
+          "doi": "10.5194/esd-8-1223-2017",
+          "score": 0.6304556727409363
+        },
+        {
+          "doi": "10.3389/fmars.2020.606609",
+          "score": 0.6431939005851746
+        },
+        {
+          "doi": "10.1127/metz_2022_1166",
+          "score": 0.6523581743240356
+        },
+        {
+          "doi": "10.1098/rsos.240339",
+          "score": 0.6534285545349121
+        },
+        {
+          "doi": "10.1098/rsos.240339",
+          "score": 0.6567678451538086
+        },
+        {
+          "doi": "10.3390/en13143670",
+          "score": 0.6585361361503601
+        },
+        {
+          "doi": "10.1371/journal.pone.0239919",
+          "score": 0.659826397895813
+        },
+        {
+          "doi": "10.1007/s10546-015-0008-x",
+          "score": 0.6633641719818115
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: OWFs often overlap critical habitats, such as flatfish spawning grounds (2–16% of settlers originate from OWF areas) and may further enhance spawning connectivity for species with pelagic larvae by linking natural and artificial hard substrates (Van Der Molen et al., 2018)?",
+      "expected_dois": [
+        "10.1038/s41598-018-32912-2"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.22210770845413208
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.24162657558918
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.24463963508605957
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.29434606432914734
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.2958105206489563
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.29636475443840027
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.30314067006111145
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.311940997838974
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3176879584789276
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.3179459869861603
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Experimental exposure to pile-driving sound (LE = 206 dB re 1 µPa2s for an exposure to 100 strikes) showed no significant increase in mortality for common sole larvae within the first 7 days post-exposure?",
+      "expected_dois": [
+        "10.1371/journal.pone.0033052"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.16176238656044006
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.16558264195919037
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.18804682791233063
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.18813955783843994
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.22569940984249115
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.22709661722183228
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.2386114001274109
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.24043679237365723
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.2439545840024948
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.24719378352165222
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Multi-use marine parks incorporating OWFs have different implications for fish stocks, requiring more empirical evaluation?",
+      "expected_dois": [
+        "10.5751/es-05207-170432"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ocecoaman.2025.107671",
+          "score": 0.29444050788879395
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.29774993658065796
+        },
+        {
+          "doi": "10.1016/j.ocecoaman.2025.107671",
+          "score": 0.30812233686447144
+        },
+        {
+          "doi": "10.1016/j.marpol.2017.01.013",
+          "score": 0.32221490144729614
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3249205946922302
+        },
+        {
+          "doi": "10.1016/j.marpolbul.2025.117915",
+          "score": 0.3259316086769104
+        },
+        {
+          "doi": "10.1016/j.ocecoaman.2025.107671",
+          "score": 0.3267238736152649
+        },
+        {
+          "doi": "10.1016/j.marpol.2023.105941",
+          "score": 0.3324260711669922
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.3364647626876831
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.3403171896934509
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: D1 - Cephalopods One paper with two modelling-type case studies was retrieved covering the impacts of OWF expansion on cephalopods?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1093/icesjms_fsaf153",
+          "score": 0.3918662667274475
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.3976114094257355
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.3981889486312866
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.4055626392364502
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.40793198347091675
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.4100457727909088
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.4105396568775177
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.41411328315734863
+        },
+        {
+          "doi": "10.1093/icesjms_fsaf153",
+          "score": 0.41457003355026245
+        },
+        {
+          "doi": "10.1093/icesjms_fsaf153",
+          "score": 0.4163903295993805
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: D1 – Pelagic habitats The same paper, research, measured mean annual biomasses of zooplankton and phy - toplankton from data collected from monitoring the quality of water bodies in the Bay of Seine?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.31452322006225586
+        },
+        {
+          "doi": "10.1016/j.ecolind.2020.106381",
+          "score": 0.33031895756721497
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.3397524058818817
+        },
+        {
+          "doi": "10.19217/nul2022-01-02",
+          "score": 0.35628026723861694
+        },
+        {
+          "doi": "10.3389/fmars.2021.754375",
+          "score": 0.3613709509372711
+        },
+        {
+          "doi": "10.3389/fmars.2024.1379331",
+          "score": 0.36438804864883423
+        },
+        {
+          "doi": "10.1093/icesjms_fsaa133",
+          "score": 0.3669812083244324
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.37193965911865234
+        },
+        {
+          "doi": "10.1016/j.ecolind.2018.07.014",
+          "score": 0.37204670906066895
+        },
+        {
+          "doi": "10.19217/nul2022-01-02",
+          "score": 0.3725127577781677
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: These artificial structures function as reef habitats, supporting dense assemblages of sessile epifauna, including Mytilus edulis and barnacles, which increase local biomass and structural complexity?",
+      "expected_dois": [
+        "10.1016/j.ecss.2013.03.012"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.2495/cp130121",
+          "score": 0.41537851095199585
+        },
+        {
+          "doi": "10.1016/j.apor.2023.103572",
+          "score": 0.4287473261356354
+        },
+        {
+          "doi": "10.1016/j.seares.2024.102522",
+          "score": 0.42891189455986023
+        },
+        {
+          "doi": "10.1038/s41598-018-32912-2",
+          "score": 0.4315769374370575
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.4350893497467041
+        },
+        {
+          "doi": "10.1016/j.seares.2024.102522",
+          "score": 0.43618014454841614
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.4393787682056427
+        },
+        {
+          "doi": "10.1080/17451000801947043",
+          "score": 0.4444299340248108
+        },
+        {
+          "doi": "10.3354/meps14883",
+          "score": 0.4459030032157898
+        },
+        {
+          "doi": "10.3390/d15020288",
+          "score": 0.44645845890045166
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Ecological modelling by research suggests that OWFs enhance secondary production by favouring suspension-feeding organisms, thereby modifying energy transfer pathways and benthic–pelagic coupling?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.313881516456604
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.31536293029785156
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.31773316860198975
+        },
+        {
+          "doi": "10.1007/s12526-025-01567-4",
+          "score": 0.3216094970703125
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.32451969385147095
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.32931989431381226
+        },
+        {
+          "doi": "10.1016/j.scitotenv.2022.159285",
+          "score": 0.3363950550556183
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.33720341324806213
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.3409150242805481
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.3445638418197632
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Research showed that partial removal strategies, such as retaining scour protection or cutting foundations above the seabed, preserve critical hard-substrate habitat and minimise biodiversity loss, where - as complete removal causes substantial declines in associated epibenthic macrofauna?",
+      "expected_dois": [
+        "10.1016/j.jenvman.2023.119022"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.2728610038757324
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.29211872816085815
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.29227474331855774
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.2961040139198303
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.31570783257484436
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.3177497386932373
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.32844117283821106
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.33533424139022827
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.3449186086654663
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.37576568126678467
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Studies found that several species of benthic macrofauna (invertebrates) are associated with wind turbine foundations (De Mesel, 2015) and that offshore structures and natural substrates serve as important spawning and settling sites for various sedentary species with pelagic larval phases?",
+      "expected_dois": [
+        "10.1038/s41598-018-32912-2"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.29732492566108704
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.30805712938308716
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.3087973892688751
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.3125690817832947
+        },
+        {
+          "doi": "10.3389/fmars.2021.629230",
+          "score": 0.3263383209705353
+        },
+        {
+          "doi": "10.3389/fmars.2020.00379",
+          "score": 0.33706843852996826
+        },
+        {
+          "doi": "10.3390/d18030163",
+          "score": 0.34627988934516907
+        },
+        {
+          "doi": "10.1093/icesjms_fsz018",
+          "score": 0.3464306592941284
+        },
+        {
+          "doi": "10.1093/icesjms_fsaa133",
+          "score": 0.346838116645813
+        },
+        {
+          "doi": "10.3389/fmars.2026.1743207",
+          "score": 0.35291731357574463
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Wind farm structures are predicted to increase benthos biomass, and as a consequence, provide more resources for fish benthic feeders, as well as top predators such as sole and cod?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2018.07.014"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.30793100595474243
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.31365567445755005
+        },
+        {
+          "doi": "10.1016/j.rsma.2025.104218",
+          "score": 0.313750684261322
+        },
+        {
+          "doi": "10.1016/j.rsma.2025.104218",
+          "score": 0.3362455368041992
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.3377757668495178
+        },
+        {
+          "doi": "10.12911/22998993_196200",
+          "score": 0.3378638029098511
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.34107089042663574
+        },
+        {
+          "doi": "10.1016/j.rsma.2025.104218",
+          "score": 0.35378333926200867
+        },
+        {
+          "doi": "10.3389/fmars.2021.629230",
+          "score": 0.35633233189582825
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.35986536741256714
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: As a result, OWFs attract species of economic interest, such as plaice or lobster (shown in greater catch rates around monopiles , potentially altering local ecosystems and predator-prey dynamics?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2018.07.014"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.40317678451538086
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.4293172061443329
+        },
+        {
+          "doi": "10.1002/mcf2.10265",
+          "score": 0.4390488564968109
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.44147539138793945
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.44210439920425415
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.4448152184486389
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.460514098405838
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.46128904819488525
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.4615769386291504
+        },
+        {
+          "doi": "10.1016/j.ecoser.2023.101550",
+          "score": 0.4665796160697937
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: The restriction of areas for fishing may increase predator species (e.g., cod, lobster) around OWFs, altering prey populations , and changing fish communities on a small scale?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2018.07.014"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1002/2688-8319.70039",
+          "score": 0.3510109484195709
+        },
+        {
+          "doi": "10.1016/j.ecolind.2018.07.014",
+          "score": 0.3533783257007599
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.35938599705696106
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3613232374191284
+        },
+        {
+          "doi": "10.1093/icesjms_fsaf153",
+          "score": 0.3757995367050171
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.38106441497802734
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3840174674987793
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.3885936439037323
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.3948003351688385
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.39571037888526917
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: In turn, this can cause unexpected ecosystem changes in areas outside OWFs increasing pressure on certain species and leading to secondary ecological consequences?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2018.07.014"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.3929586410522461
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.39427492022514343
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.39791831374168396
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.39923280477523804
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.40497973561286926
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.4070851802825928
+        },
+        {
+          "doi": "10.1007/s10531-023-02759-9",
+          "score": 0.40865784883499146
+        },
+        {
+          "doi": "10.1038/s44183-022-00003-5",
+          "score": 0.41158798336982727
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.4142554998397827
+        },
+        {
+          "doi": "10.1002/2688-8319.70039",
+          "score": 0.41510671377182007
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Spillover and edge effects: The absence of fishing (usually forbidden within wind farms) may increase biodiversity and the abundance of benthopelagic and benthic species that use OWFs for shelter and as feeding grounds, with potential, positive spillover effects?",
+      "expected_dois": [
+        "10.3389/fmars.2020.00379"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.jmarsys.2020.103434",
+          "score": 0.2821846306324005
+        },
+        {
+          "doi": "10.1016/j.jmarsys.2020.103434",
+          "score": 0.2975153625011444
+        },
+        {
+          "doi": "10.1016/j.jmarsys.2020.103434",
+          "score": 0.3010493516921997
+        },
+        {
+          "doi": "10.3389/fmars.2025.1561347",
+          "score": 0.30670270323753357
+        },
+        {
+          "doi": "10.1016/j.jmarsys.2020.103434",
+          "score": 0.3194226026535034
+        },
+        {
+          "doi": "10.1038/s44183-022-00003-5",
+          "score": 0.32132938504219055
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.32416024804115295
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.32433903217315674
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.32686400413513184
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3279531002044678
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: If predators concentrate in OWFs, it could impact surrounding prey species beyond the wind farm boundaries?",
+      "expected_dois": [
+        "10.1016/j.jmarsys.2020.103434"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.31863173842430115
+        },
+        {
+          "doi": "10.3389/fmars.2024.1344013",
+          "score": 0.32852137088775635
+        },
+        {
+          "doi": "10.3389/fmars.2026.1765872",
+          "score": 0.33760079741477966
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.34728673100471497
+        },
+        {
+          "doi": "10.3389/fmars.2026.1765872",
+          "score": 0.36198025941848755
+        },
+        {
+          "doi": "10.3390/d18030163",
+          "score": 0.36961305141448975
+        },
+        {
+          "doi": "10.1093/icesjms_fsac107",
+          "score": 0.3697446584701538
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.37233036756515503
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.3735142648220062
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.37435829639434814
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Do negative effects from habitat loss recover??",
+      "expected_dois": [
+        "10.1016/j.jmarsys.2020.103434"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.4005119800567627
+        },
+        {
+          "doi": "10.1016/j.ecss.2025.109353",
+          "score": 0.404360830783844
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.4095776677131653
+        },
+        {
+          "doi": "10.1016/j.ecss.2025.109353",
+          "score": 0.4106501638889313
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.41694915294647217
+        },
+        {
+          "doi": "10.1186/s40317-021-00238-y",
+          "score": 0.43050989508628845
+        },
+        {
+          "doi": "10.1093/icesjms_fsad043",
+          "score": 0.4329248368740082
+        },
+        {
+          "doi": "10.1016/j.ecss.2025.109353",
+          "score": 0.4348447322845459
+        },
+        {
+          "doi": "10.1093/icesjms_fsad150",
+          "score": 0.4369671940803528
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.4371032118797302
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Cod predominantly occurs at low ambient light levels (dusk and dawn), likely balancing foraging efficiency with predation risk?",
+      "expected_dois": [
+        "10.1016/j.marenvres.2013.05.013"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.4013420045375824
+        },
+        {
+          "doi": "10.1371/journal.pone.0176653",
+          "score": 0.42972004413604736
+        },
+        {
+          "doi": "10.1016/j.marenvres.2025.106959",
+          "score": 0.43384188413619995
+        },
+        {
+          "doi": "10.3389/fmars.2020.00230",
+          "score": 0.43635478615760803
+        },
+        {
+          "doi": "10.1016/j.marenvres.2025.106959",
+          "score": 0.44902077317237854
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.4625106155872345
+        },
+        {
+          "doi": "10.1007/s00227-021-03954-4",
+          "score": 0.46457743644714355
+        },
+        {
+          "doi": "10.1016/j.marenvres.2013.05.013",
+          "score": 0.46541208028793335
+        },
+        {
+          "doi": "10.1007/s00227-021-03954-4",
+          "score": 0.4672049880027771
+        },
+        {
+          "doi": "10.1038/s42003-023-04728-y",
+          "score": 0.46747344732284546
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Biomass changes and trophic functioning following OWF construction: Comparative modelling scenarios before and after OWF construction show significant increases in biomass across demersal fish, pelagic species, and invertebrates?",
+      "expected_dois": [
+        "10.1016/j.jmarsys.2020.103434",
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecolind.2020.107010",
+          "score": 0.24975809454917908
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.25440824031829834
+        },
+        {
+          "doi": "10.1007/s12526-025-01567-4",
+          "score": 0.2607074975967407
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.2645111382007599
+        },
+        {
+          "doi": "10.1007/s11367-025-02504-0",
+          "score": 0.27109676599502563
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.2717081606388092
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.2719162404537201
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.2724706530570984
+        },
+        {
+          "doi": "10.1016/j.rsma.2025.104218",
+          "score": 0.2745717763900757
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.2748161554336548
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Overall, the literature indicates that areas adjacent to the OWF instalments exhibit increased biomass, while bordering zones show no significant change, and areas further away display a decrease in biomass?",
+      "expected_dois": [
+        "10.1016/j.jmarsys.2020.103434"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1021/acs.est.2c07797",
+          "score": 0.4134668707847595
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.4264811873435974
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.43409329652786255
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.4347207844257355
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.4347585439682007
+        },
+        {
+          "doi": "10.1016/j.rsma.2025.104218",
+          "score": 0.44074344635009766
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.44233840703964233
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.44254451990127563
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.4435553252696991
+        },
+        {
+          "doi": "10.3389/fmars.2026.1748431",
+          "score": 0.44385194778442383
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: In contrast, in the post-construction scenario, the system shifted toward greater detritivory, driven by an increase in mussel biomass, which became a dominant energy pathway?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.4704873561859131
+        },
+        {
+          "doi": "10.3389/fmars.2023.1101469",
+          "score": 0.513241171836853
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.5163741707801819
+        },
+        {
+          "doi": "10.3389/fmars.2023.1101469",
+          "score": 0.5235235095024109
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.5338437557220459
+        },
+        {
+          "doi": "10.3389/fmars.2023.1101469",
+          "score": 0.5451675057411194
+        },
+        {
+          "doi": "10.1016/j.scitotenv.2022.159285",
+          "score": 0.5466806888580322
+        },
+        {
+          "doi": "10.1093/icesjms_fsaa133",
+          "score": 0.5481698513031006
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.5494593381881714
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.5510058403015137
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Specifically, Ecosystem Efficiency (EE) rose by 5%, and the Detritivory/Herbivory (D/H) ratio increased by 18.8%, with detritivory and herbivory reaching 1.5 times and 1.2 times their pre-OWF levels, respectively?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecolind.2020.106381",
+          "score": 0.4337378144264221
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.44323450326919556
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.4468151032924652
+        },
+        {
+          "doi": "10.1016/j.ecolind.2020.106381",
+          "score": 0.4485337734222412
+        },
+        {
+          "doi": "10.1016/j.rsma.2023.103100",
+          "score": 0.4507860243320465
+        },
+        {
+          "doi": "10.1007/s10113-008-0045-9",
+          "score": 0.4514106214046478
+        },
+        {
+          "doi": "10.1007/s10113-008-0045-9",
+          "score": 0.4548497200012207
+        },
+        {
+          "doi": "10.1016/j.ecolind.2018.07.014",
+          "score": 0.4555181562900543
+        },
+        {
+          "doi": "10.1016/j.ecolind.2016.07.037",
+          "score": 0.4566463828086853
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.4573650062084198
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Wind wakes effects on primary production: Studies demonstrated that wind wakes from OWFs can lead to significant changes in primary production and oxygen levels in the North Sea, potentially impacting food web dynamics?",
+      "expected_dois": [
+        "10.1038/s43247-022-00625-0"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2025.1619577",
+          "score": 0.2256988137960434
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.2419719099998474
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.2547951936721802
+        },
+        {
+          "doi": "10.3389/fmars.2022.818501",
+          "score": 0.2553194761276245
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.2562427520751953
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.26174071431159973
+        },
+        {
+          "doi": "10.1038/s41598-021-91283-3",
+          "score": 0.2769978940486908
+        },
+        {
+          "doi": "10.3389/fmars.2022.884943",
+          "score": 0.28552743792533875
+        },
+        {
+          "doi": "10.1103/physrevfluids.9.103802",
+          "score": 0.28683435916900635
+        },
+        {
+          "doi": "10.1038/s43247-026-03186-8",
+          "score": 0.29117512702941895
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Additionally, climate change amplifies these ecological shifts, impacting key commercial species such as sole (Solea solea), cod, and king scallops (Pecten maximus)?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecoser.2023.101550",
+          "score": 0.44208547472953796
+        },
+        {
+          "doi": "10.1016/j.seares.2024.102557",
+          "score": 0.5022560358047485
+        },
+        {
+          "doi": "10.3390/d18030163",
+          "score": 0.5159041881561279
+        },
+        {
+          "doi": "10.5194/esd-13-1-2022",
+          "score": 0.5178769826889038
+        },
+        {
+          "doi": "10.3390/d18030163",
+          "score": 0.521569550037384
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.5363624691963196
+        },
+        {
+          "doi": "10.1016/j.ecoser.2023.101550",
+          "score": 0.537555992603302
+        },
+        {
+          "doi": "10.1007/s10499-016-9987-y",
+          "score": 0.5413705110549927
+        },
+        {
+          "doi": "10.3389/fmars.2021.769680",
+          "score": 0.542265772819519
+        },
+        {
+          "doi": "10.1038/s44183-025-00121-w",
+          "score": 0.543854832649231
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: It was estimated that changes in the spatial distribution patterns of Chl-a in the sea surface would follow the construction of OWF?",
+      "expected_dois": [
+        "10.3389/fmars.2022.1008005"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.3216037154197693
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.3309532403945923
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.33249592781066895
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.34277960658073425
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.3460725247859955
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.3496924340724945
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.3508336544036865
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.35323986411094666
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.36204037070274353
+        },
+        {
+          "doi": "10.3389/fmars.2022.1008005",
+          "score": 0.3649044334888458
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: These reported impacts vary spatially in the southern North Sea, with a predicted decrease in the centre of a large cluster of OWFs and areas with a predicted increase of up to 10% in net primary productivity?",
+      "expected_dois": [
+        "10.1038/s43247-022-00625-0"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.3940000832080841
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.41837456822395325
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.4295923709869385
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.46289587020874023
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.4634586274623871
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.4653113782405853
+        },
+        {
+          "doi": "10.3389/fmars.2025.1619577",
+          "score": 0.4712461233139038
+        },
+        {
+          "doi": "10.1093/icesjms_fsaa133",
+          "score": 0.47667714953422546
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.48011186718940735
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.48304229974746704
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: In the empirical study, however, no difference in light availability was observed in three of four transects, both within and outside of OWFs, with a 20% reduction in 1% photosynthetically active radiation depth observed in the fourth transect?",
+      "expected_dois": [
+        "10.1038/s43247-022-00625-0"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.42648637294769287
+        },
+        {
+          "doi": "10.1007/s10750-018-3653-5",
+          "score": 0.45915448665618896
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.4672483205795288
+        },
+        {
+          "doi": "10.1093/icesjms_fsad043",
+          "score": 0.48287057876586914
+        },
+        {
+          "doi": "10.3389/fmars.2025.1619577",
+          "score": 0.4837239384651184
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.48426714539527893
+        },
+        {
+          "doi": "10.1016/j.marenvres.2023.106061",
+          "score": 0.48458749055862427
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.48718398809432983
+        },
+        {
+          "doi": "10.1016/j.marenvres.2023.106061",
+          "score": 0.48793429136276245
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.48962998390197754
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Only one paper covered an assessment from 1980 to 2010 ; the remainder spanned the period from 2001 to 2021?",
+      "expected_dois": [
+        "10.1016/j.jenvman.2023.119022"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s40152-026-00490-z",
+          "score": 0.6904658079147339
+        },
+        {
+          "doi": "10.46544/ams.v27i3.20",
+          "score": 0.6913522481918335
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.6966250538825989
+        },
+        {
+          "doi": "10.1007/s11367-014-0709-2",
+          "score": 0.739154577255249
+        },
+        {
+          "doi": "10.1016/j.rser.2021.110857",
+          "score": 0.7533774375915527
+        },
+        {
+          "doi": "10.1186/s40317-025-00427-z",
+          "score": 0.7548155784606934
+        },
+        {
+          "doi": "10.1002/2688-8319.70039",
+          "score": 0.7605170607566833
+        },
+        {
+          "doi": "10.3391/bir.2021.10.4.01",
+          "score": 0.7616846561431885
+        },
+        {
+          "doi": "10.1186/s13750-022-00285-9",
+          "score": 0.7683531641960144
+        },
+        {
+          "doi": "10.1016/j.envpol.2024.123570",
+          "score": 0.7701576352119446
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Scour protections on the seabed are suggested as the main cause of elevated SPM concentrations?",
+      "expected_dois": [
+        "10.1007/s00367-015-0404-8"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.scitotenv.2025.178814",
+          "score": 0.36209264397621155
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.3667302429676056
+        },
+        {
+          "doi": "10.1016/j.scitotenv.2025.178814",
+          "score": 0.37954726815223694
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.38292884826660156
+        },
+        {
+          "doi": "10.1088/1742-6596_2626_1_012039",
+          "score": 0.4077295660972595
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.40828564763069153
+        },
+        {
+          "doi": "10.1016/j.seares.2024.102522",
+          "score": 0.433394193649292
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.44581103324890137
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.4467102289199829
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.44763240218162537
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Moreover, scour protections of OWF foundations appear to be highly relevant for colonisation of epibenthic communities and for preserving macrofauna after the end of life of OWFs?",
+      "expected_dois": [
+        "10.1016/j.seares.2024.102502",
+        "10.1016/j.jenvman.2023.119022"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.29297110438346863
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.3261075019836426
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.33603066205978394
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.34136080741882324
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.3429938554763794
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.35856807231903076
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.3594093918800354
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.36260971426963806
+        },
+        {
+          "doi": "10.1016/j.jenvman.2023.119022",
+          "score": 0.36874625086784363
+        },
+        {
+          "doi": "10.1016/j.seares.2024.102502",
+          "score": 0.37488093972206116
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.5,
+        "hit@1": 1,
+        "recall@3": 0.5,
+        "hit@3": 1,
+        "recall@5": 0.5,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Conversely, however, surrounding OWF areas show a declining rate in both deposition and mineralisation processes, as well as carbon storage, indicating a spatial shift in benthic biogeochemical functioning due to the presence and future expansion of OWF developments (De Borger et al., 2021a)?",
+      "expected_dois": [
+        "10.3389/fmars.2021.632243"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.2555351257324219
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.26499682664871216
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.2650580406188965
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.27788230776786804
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.2833660840988159
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.2864237427711487
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.29190894961357117
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.3033584654331207
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.3048449158668518
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.3077312707901001
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: While immediate OWF areas may act as temporary carbon sinks on permeable sediments, activities such as construction, dredging, bottom trawling and decommissioning can lead to sediment disturbance and re-release of stored carbon (De Borger et al., 2021a)?",
+      "expected_dois": [
+        "10.3389/fmars.2021.632243"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.3068650960922241
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.33249831199645996
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.3443090617656708
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.3458574414253235
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.3559265434741974
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.356844961643219
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.3579961359500885
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.36370402574539185
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.36404383182525635
+        },
+        {
+          "doi": "10.3389/fmars.2022.1068967",
+          "score": 0.3754957914352417
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: The effect of bottom trawling bans (500 m) on the seabed after construction shows no spill-over effects on short-term studies, and no long-term effects (reversion of effects) if fisheries come back afterwards?",
+      "expected_dois": [
+        "10.5194/bg-21-2547-2024"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/978-3-540-34677-7_12",
+          "score": 0.35110336542129517
+        },
+        {
+          "doi": "10.1093/icesjms_fsz018",
+          "score": 0.3977167308330536
+        },
+        {
+          "doi": "10.1016/j.rser.2024.114386",
+          "score": 0.3994695246219635
+        },
+        {
+          "doi": "10.1038/s41598-025-24296-x",
+          "score": 0.4012504816055298
+        },
+        {
+          "doi": "10.5670/oceanog.2020.403",
+          "score": 0.40338319540023804
+        },
+        {
+          "doi": "10.3389/fmars.2025.1539143",
+          "score": 0.40572816133499146
+        },
+        {
+          "doi": "10.1007/s12526-025-01567-4",
+          "score": 0.4057503342628479
+        },
+        {
+          "doi": "10.3390/d18030163",
+          "score": 0.40930259227752686
+        },
+        {
+          "doi": "10.5194/esd-13-1-2022",
+          "score": 0.4138418138027191
+        },
+        {
+          "doi": "10.5194/bg-21-2547-2024",
+          "score": 0.4169410467147827
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Moreover, standardised procedures and long-term surveys for monitoring programmes and dismantling remain to be developed (De Borger et al., 2021b; Spielmann et al., 2023)?",
+      "expected_dois": [
+        "10.3389/fmars.2021.632243",
+        "10.1016/j.jenvman.2023.119022"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s40152-026-00490-z",
+          "score": 0.49693912267684937
+        },
+        {
+          "doi": "10.1007/s40152-026-00490-z",
+          "score": 0.5401119589805603
+        },
+        {
+          "doi": "10.19217/nul2022-01-02",
+          "score": 0.5472187399864197
+        },
+        {
+          "doi": "10.1007/s10336-016-1402-y",
+          "score": 0.548937976360321
+        },
+        {
+          "doi": "10.1021/acs.est.0c00070",
+          "score": 0.5522838234901428
+        },
+        {
+          "doi": "10.19217/nul2022-01-02",
+          "score": 0.5606239438056946
+        },
+        {
+          "doi": "10.3391/bir.2021.10.4.01",
+          "score": 0.5724570751190186
+        },
+        {
+          "doi": "10.1016/j.esr.2023.101110",
+          "score": 0.5785690546035767
+        },
+        {
+          "doi": "10.1007/s10336-016-1402-y",
+          "score": 0.5790914297103882
+        },
+        {
+          "doi": "10.1002/2688-8319.12373",
+          "score": 0.5852134227752686
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: For SPM plume dynamics, considering the rapid expansion of OWFs, further studies on the wider-scale impacts of artificial hard substrates are needed?",
+      "expected_dois": [
+        "10.1007/s00367-015-0404-8"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.41853368282318115
+        },
+        {
+          "doi": "10.3389/fmars.2020.00379",
+          "score": 0.42638877034187317
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.43616828322410583
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.44360312819480896
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.4437726140022278
+        },
+        {
+          "doi": "10.1088/1742-6596_2626_1_012039",
+          "score": 0.44385701417922974
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.4441230893135071
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.4457729458808899
+        },
+        {
+          "doi": "10.1093/icesjms_fsaf153",
+          "score": 0.4480738639831543
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.44841909408569336
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: OWF arrays suppress downstream tidal currents by 5–15%, disrupting natural sediment transport and increasing the risk of erosion, and divert lateral flows by up to 10%, redistributing sediment patterns?",
+      "expected_dois": [
+        "10.1038/s43247-022-00625-0"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.3400985896587372
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.3534925580024719
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.3623133599758148
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.3629293441772461
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.36819443106651306
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.37162649631500244
+        },
+        {
+          "doi": "10.1103/physrevfluids.9.103802",
+          "score": 0.38261398673057556
+        },
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.3841680884361267
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.3855968117713928
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.386620432138443
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Wave refraction focuses on sensitive habitats such as salt marshes?",
+      "expected_dois": [
+        "10.1016/j.apor.2019.101947"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s41598-025-91525-8",
+          "score": 0.5020744800567627
+        },
+        {
+          "doi": "10.1029/2023jf007153",
+          "score": 0.5139367580413818
+        },
+        {
+          "doi": "10.1007/978-3-540-34677-7_11",
+          "score": 0.5192522406578064
+        },
+        {
+          "doi": "10.2495/cp130121",
+          "score": 0.520378589630127
+        },
+        {
+          "doi": "10.2478/pomr-2014-0048",
+          "score": 0.520540714263916
+        },
+        {
+          "doi": "10.1016/j.ecss.2025.109353",
+          "score": 0.52440345287323
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.5347205400466919
+        },
+        {
+          "doi": "10.1038/s41598-025-91525-8",
+          "score": 0.5388279557228088
+        },
+        {
+          "doi": "10.3389/fmars.2018.00402",
+          "score": 0.5389485359191895
+        },
+        {
+          "doi": "10.1007/978-1-4939-2981-8_23",
+          "score": 0.5434049367904663
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: In stratified waters, turbulence generated by turbines can disrupt thermal stratification, decreasing vertical temperature gradients by 8–12% and altering nutrient cycling, which can lead to increased hy - poxia?",
+      "expected_dois": [
+        "10.3389/fmars.2022.1006647",
+        "10.1371/journal.pone.0160830",
+        "10.3389/fmars.2022.818501"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.38260650634765625
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.4178024232387543
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.42056626081466675
+        },
+        {
+          "doi": "10.1016/j.rser.2024.114386",
+          "score": 0.42428091168403625
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.4244619309902191
+        },
+        {
+          "doi": "10.1038/s43247-026-03186-8",
+          "score": 0.42558497190475464
+        },
+        {
+          "doi": "10.3389/fmars.2021.629230",
+          "score": 0.42638036608695984
+        },
+        {
+          "doi": "10.3389/fmars.2025.1619577",
+          "score": 0.4268818199634552
+        },
+        {
+          "doi": "10.1038/s44183-025-00121-w",
+          "score": 0.43078896403312683
+        },
+        {
+          "doi": "10.3389/fmars.2022.1006647",
+          "score": 0.4330909252166748
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.3333333333333333,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Residual currents can be reduced by as much as 15% through the collective wake effects of several farms, thereby hindering natural sediment and contaminant dispersal?",
+      "expected_dois": [
+        "10.1038/s43247-022-00625-0"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.4469797611236572
+        },
+        {
+          "doi": "10.1038/s43247-026-03186-8",
+          "score": 0.47344520688056946
+        },
+        {
+          "doi": "10.1038/s43247-026-03186-8",
+          "score": 0.49029380083084106
+        },
+        {
+          "doi": "10.3389/fmars.2023.1178330",
+          "score": 0.49609118700027466
+        },
+        {
+          "doi": "10.3389/fmars.2025.1674859",
+          "score": 0.4961449205875397
+        },
+        {
+          "doi": "10.3389/fmars.2023.1178330",
+          "score": 0.4994082748889923
+        },
+        {
+          "doi": "10.1038/s44183-025-00121-w",
+          "score": 0.5022057294845581
+        },
+        {
+          "doi": "10.1016/j.scitotenv.2025.178814",
+          "score": 0.5043236017227173
+        },
+        {
+          "doi": "10.1038/s43247-026-03186-8",
+          "score": 0.5050861239433289
+        },
+        {
+          "doi": "10.1038/s41598-024-56731-w",
+          "score": 0.5074840188026428
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Sea - bed trawling disturbs sediment, thus increasing turbidity caused by OWF construction activities?",
+      "expected_dois": [
+        "10.3389/fmars.2022.1006647",
+        "10.3389/fmars.2022.818501"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.rser.2016.11.248",
+          "score": 0.38433837890625
+        },
+        {
+          "doi": "10.1007/s11367-025-02504-0",
+          "score": 0.3912808299064636
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.4090477526187897
+        },
+        {
+          "doi": "10.3389/fmars.2025.1619577",
+          "score": 0.4099847078323364
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.41772449016571045
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.42334887385368347
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.42648226022720337
+        },
+        {
+          "doi": "10.1371/journal.pone.0160830",
+          "score": 0.427244633436203
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.42946386337280273
+        },
+        {
+          "doi": "10.1021/acs.est.2c07797",
+          "score": 0.4306749701499939
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Climate change increases coastal erosion due to sea level rise and stronger storms, a risk that is amplified when sea level rise impairs OWF-induced wave atten - uation, thereby reducing sediment replenishment?",
+      "expected_dois": [
+        "10.1016/j.coastaleng.2020.103832"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.5194/esd-13-1-2022",
+          "score": 0.3159168064594269
+        },
+        {
+          "doi": "10.1007/s00367-015-0404-8",
+          "score": 0.35862571001052856
+        },
+        {
+          "doi": "10.5194/esd-13-1-2022",
+          "score": 0.3611934781074524
+        },
+        {
+          "doi": "10.1127/metz_2022_1109",
+          "score": 0.3757380545139313
+        },
+        {
+          "doi": "10.5194/esd-8-1223-2017",
+          "score": 0.3980838656425476
+        },
+        {
+          "doi": "10.5194/esd-13-1-2022",
+          "score": 0.4008839726448059
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.40500736236572266
+        },
+        {
+          "doi": "10.1016/j.seares.2024.102557",
+          "score": 0.4090120196342468
+        },
+        {
+          "doi": "10.5194/esd-13-1-2022",
+          "score": 0.41181764006614685
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.41372206807136536
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Monopile turbines are included in 80% of the studies using numerical models or measured in rather short time frames, severely limiting the validation of long-term effects (Van Berkel et al., 2020)?",
+      "expected_dois": [
+        "10.5670/oceanog.2020.410"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.5194/wes-11-443-2026",
+          "score": 0.4233383238315582
+        },
+        {
+          "doi": "10.1680/jgeot.18.p.255",
+          "score": 0.4275680184364319
+        },
+        {
+          "doi": "10.1016/j.apor.2019.101947",
+          "score": 0.43222576379776
+        },
+        {
+          "doi": "10.1016/j.engstruct.2019.109903",
+          "score": 0.4453825354576111
+        },
+        {
+          "doi": "10.1016/j.apor.2019.101947",
+          "score": 0.44840094447135925
+        },
+        {
+          "doi": "10.5194/wes-11-443-2026",
+          "score": 0.4484674036502838
+        },
+        {
+          "doi": "10.3389/fmars.2023.1178330",
+          "score": 0.45184576511383057
+        },
+        {
+          "doi": "10.1016/j.energy.2016.08.068",
+          "score": 0.4534716010093689
+        },
+        {
+          "doi": "10.3389/fmars.2023.1178330",
+          "score": 0.45429757237434387
+        },
+        {
+          "doi": "10.1016/j.oceaneng.2024.118914",
+          "score": 0.4556550979614258
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Ecologically, few studies trace hydrographic changes through food webs, and while stratification perturbations may alter zooplankton distributions, their links to fish stocks remain unexplored?",
+      "expected_dois": [
+        "10.3389/fmars.2022.1006647",
+        "10.3389/fmars.2022.818501"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.31447574496269226
+        },
+        {
+          "doi": "10.1007/s10113-008-0045-9",
+          "score": 0.32884541153907776
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.33591362833976746
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.33984601497650146
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.3412907123565674
+        },
+        {
+          "doi": "10.3389/fmars.2021.754375",
+          "score": 0.34519287943840027
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.3484291136264801
+        },
+        {
+          "doi": "10.3389/fmars.2021.754375",
+          "score": 0.34918349981307983
+        },
+        {
+          "doi": "10.3389/fmars.2021.769680",
+          "score": 0.35471004247665405
+        },
+        {
+          "doi": "10.1016/j.marenvres.2025.106959",
+          "score": 0.3606569170951843
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: No impact on swim speed nor turning behaviour, but larvae appear to swim towards the source?",
+      "expected_dois": [
+        "10.1038/s42003-023-04728-y"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1038/s42003-023-04728-y",
+          "score": 0.3681226968765259
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.4038039445877075
+        },
+        {
+          "doi": "10.1371/journal.pone.0033052",
+          "score": 0.41592246294021606
+        },
+        {
+          "doi": "10.1016/j.marpolbul.2013.07.027",
+          "score": 0.42300939559936523
+        },
+        {
+          "doi": "10.1038/s42003-023-04728-y",
+          "score": 0.426015168428421
+        },
+        {
+          "doi": "10.1016/j.envpol.2022.119853",
+          "score": 0.4276033043861389
+        },
+        {
+          "doi": "10.1038/s42003-023-04728-y",
+          "score": 0.4312472343444824
+        },
+        {
+          "doi": "10.1080/00063657.2024.2305169",
+          "score": 0.43272364139556885
+        },
+        {
+          "doi": "10.1371/journal.pone.0239919",
+          "score": 0.433175265789032
+        },
+        {
+          "doi": "10.1038/s42003-023-04728-y",
+          "score": 0.43451157212257385
+        }
+      ],
+      "metrics": {
+        "recall@1": 1.0,
+        "hit@1": 1,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Among the most common pressures, fishing and OWF effects have been investigated, especially the redistribution of marine mobile species resulting from the displacement of fishing pressure due to closed areas around OWFs and the concentration of commercial species through the reef effect?",
+      "expected_dois": [
+        "10.1016/j.ecolind.2016.07.037"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.marpol.2017.01.013",
+          "score": 0.3146258592605591
+        },
+        {
+          "doi": "10.1016/j.marpol.2023.105941",
+          "score": 0.3401370644569397
+        },
+        {
+          "doi": "10.1016/j.ecoser.2023.101550",
+          "score": 0.34842729568481445
+        },
+        {
+          "doi": "10.1016/j.marpol.2017.01.013",
+          "score": 0.3507627248764038
+        },
+        {
+          "doi": "10.1093/icesjms_fsad179",
+          "score": 0.35179275274276733
+        },
+        {
+          "doi": "10.1093/icesjms_fsaf153",
+          "score": 0.35559093952178955
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.3604590892791748
+        },
+        {
+          "doi": "10.1016/j.marpol.2017.01.013",
+          "score": 0.3616603910923004
+        },
+        {
+          "doi": "10.1093/icesjms_fsz050",
+          "score": 0.36244064569473267
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.3646332621574402
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: The distance of avoidance has been quantified, showing that for those species, D1C5 on maintaining species habitat areas7 is likely not going to be met in areas cumulating multiple OWFs (see, for instance?",
+      "expected_dois": [
+        "10.1007/s10531-023-02759-9",
+        "10.1038/s41598-023-31601-z"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1016/j.ecoinf.2024.102981",
+          "score": 0.3588971495628357
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.3939245343208313
+        },
+        {
+          "doi": "10.1016/j.ecoinf.2024.102981",
+          "score": 0.4003795087337494
+        },
+        {
+          "doi": "10.1007/s12526-025-01567-4",
+          "score": 0.4281420409679413
+        },
+        {
+          "doi": "10.1038/s41598-023-31601-z",
+          "score": 0.42858314514160156
+        },
+        {
+          "doi": "10.1007/s12526-025-01567-4",
+          "score": 0.42974725365638733
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.43107396364212036
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.4362557530403137
+        },
+        {
+          "doi": "10.1007/s00227-024-04542-y",
+          "score": 0.43737512826919556
+        },
+        {
+          "doi": "10.1016/j.ecoinf.2024.102981",
+          "score": 0.4376611113548279
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.5,
+        "hit@5": 1,
+        "recall@10": 0.5,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: Currents can be reduced by 15% and alter the natural dispersal of sediments and contaminants?",
+      "expected_dois": [
+        "10.1038/s43247-022-00625-0"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.3389/fmars.2023.1178330",
+          "score": 0.4739530086517334
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.4826801121234894
+        },
+        {
+          "doi": "10.5200/baltica.2015.28.15",
+          "score": 0.4928499460220337
+        },
+        {
+          "doi": "10.3389/fmars.2023.1178330",
+          "score": 0.5024075508117676
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.5029691457748413
+        },
+        {
+          "doi": "10.1038/s43247-026-03186-8",
+          "score": 0.5053927302360535
+        },
+        {
+          "doi": "10.3389/fmars.2025.1674859",
+          "score": 0.5058103799819946
+        },
+        {
+          "doi": "10.1038/s43247-026-03390-6",
+          "score": 0.5152391791343689
+        },
+        {
+          "doi": "10.1038/s43247-022-00625-0",
+          "score": 0.5232494473457336
+        },
+        {
+          "doi": "10.3389/fmars.2025.1674859",
+          "score": 0.5242111682891846
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 1.0,
+        "hit@3": 1,
+        "recall@5": 1.0,
+        "hit@5": 1,
+        "recall@10": 1.0,
+        "hit@10": 1
+      }
+    },
+    {
+      "question": "According to the scientific literature: The structure of the ecosystem is altered by the introduction of hard-bottom fauna into soft-bottom areas, resulting in changed food web dynamics, increased species abundances, modified prey populations, and competition (De Troch et al., 2013; Halouani et al., 2020; Maar et al., 2009)?",
+      "expected_dois": [
+        "10.1016/j.jmarsys.2020.103434"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1002/2688-8319.70039",
+          "score": 0.3439714312553406
+        },
+        {
+          "doi": "10.1093/icesjms_fsz018",
+          "score": 0.35765349864959717
+        },
+        {
+          "doi": "10.1007/s10113-008-0045-9",
+          "score": 0.36953455209732056
+        },
+        {
+          "doi": "10.1038/s43247-025-02253-w",
+          "score": 0.37437841296195984
+        },
+        {
+          "doi": "10.5194/wes-7-801-2022",
+          "score": 0.37952059507369995
+        },
+        {
+          "doi": "10.1016/j.rsma.2025.104218",
+          "score": 0.37985265254974365
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.38036948442459106
+        },
+        {
+          "doi": "10.1007/s10113-008-0045-9",
+          "score": 0.38677045702934265
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.38937944173812866
+        },
+        {
+          "doi": "10.5751/es-05207-170432",
+          "score": 0.39010629057884216
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    },
+    {
+      "question": "According to the scientific literature: Changes in hydrographic conditions at the OWF sites cause an increase in organic matter and enhanced productivity, which are expected to affect higher trophic levels, such as mobile demersal and pelagic megafauna?",
+      "expected_dois": [
+        "10.5194/bg-21-2547-2024"
+      ],
+      "retrieved_top10": [
+        {
+          "doi": "10.1007/s12526-025-01567-4",
+          "score": 0.36747053265571594
+        },
+        {
+          "doi": "10.3389/fmars.2021.632243",
+          "score": 0.3757028877735138
+        },
+        {
+          "doi": "10.1093/icesjms_fsaa133",
+          "score": 0.37742340564727783
+        },
+        {
+          "doi": "10.1093/icesjms_fsad194",
+          "score": 0.37997666001319885
+        },
+        {
+          "doi": "10.3390/d15020288",
+          "score": 0.3889404535293579
+        },
+        {
+          "doi": "10.1016/j.scitotenv.2022.159285",
+          "score": 0.3903907537460327
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.3907160460948944
+        },
+        {
+          "doi": "10.1016/j.jenvman.2025.126922",
+          "score": 0.3923020362854004
+        },
+        {
+          "doi": "10.5670/oceanog.2020.410",
+          "score": 0.3937722444534302
+        },
+        {
+          "doi": "10.1093/icesjms_fsac026",
+          "score": 0.4011308252811432
+        }
+      ],
+      "metrics": {
+        "recall@1": 0.0,
+        "hit@1": 0,
+        "recall@3": 0.0,
+        "hit@3": 0,
+        "recall@5": 0.0,
+        "hit@5": 0,
+        "recall@10": 0.0,
+        "hit@10": 0
+      }
+    }
+  ]
+}
