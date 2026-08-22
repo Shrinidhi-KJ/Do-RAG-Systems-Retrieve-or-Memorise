@@ -6,8 +6,9 @@ One-time builder for Condition D's contradictory documents.
 For each question in pilot_eval_set.json it:
   1. Pulls the ground-truth chunk (oracle retrieval from matched_dois). If the
      paper isn't in the index, falls back to the claim_text itself.
-  2. Uses a STRONGER editor model (Llama 3.3 70B) to rewrite that passage into a
-     fluent, on-topic counterfactual that asserts the WRONG answer.
+  2. Uses the 8B editor model (Llama 3.1 8B Instant, see EDITOR_MODEL below) to
+     rewrite that passage into a fluent, on-topic counterfactual that asserts the
+     WRONG answer.
   3. Verifies the rewrite actually contradicts the original claim (LLM-as-judge).
   4. Caches everything to contradictions_cache.json, keyed by item index.
 
@@ -36,13 +37,25 @@ import json
 import argparse
 from pathlib import Path
 
-from conditions import get_store
+from conditions import get_store, canonicalise_doi
 from llm_generation import complete
 
 # Repo root = parent of core/. Anchors data paths so this works from any CWD.
 ROOT = Path(__file__).resolve().parent.parent
-EVAL_SET = ROOT / "pilot_eval_set.json"
-CACHE_FILE = ROOT / "contradictions_cache.json"
+# Same config-driven eval set as run_experiment.py (RAG_EVAL_SET env override, default
+# d3_eval_set.json). The builder and the run MUST read the same file, since Condition D
+# is keyed by record index. A bare filename resolves against the repo root.
+EVAL_SET = Path(os.environ.get("RAG_EVAL_SET", str(ROOT / "d3_eval_set.json")))
+if not EVAL_SET.is_absolute():
+    EVAL_SET = ROOT / EVAL_SET
+# The contradictions cache path is configurable so a new eval set writes to its OWN file
+# and never overwrites the pilot's frozen contradictions_cache.json. run_experiment.py
+# reads the SAME env var, so the D cache stays index-aligned with the run. Default keeps
+# the historical pilot filename. A bare filename resolves against the repo root.
+#     RAG_CONTRADICTIONS_CACHE=contradictions_cache_d3.json  python build_contradictions.py
+CACHE_FILE = Path(os.environ.get("RAG_CONTRADICTIONS_CACHE", str(ROOT / "contradictions_cache.json")))
+if not CACHE_FILE.is_absolute():
+    CACHE_FILE = ROOT / CACHE_FILE
 
 # Model for data construction. NOTE: the 70B free tier is capped at ~100k
 # tokens/day, which this script (3 calls/item) exhausts around item ~30. The 8B
@@ -68,6 +81,10 @@ def get_oracle_chunks(store, claim_text, gt_dois, k=3):
         gt_dois = [gt_dois]
     if not gt_dois:
         return []
+    # Canonicalise to the stored form (same rule as Condition B2), so a true eval-set DOI
+    # matches a mangled OUP entry. Without this the four multi-slash OUP papers look
+    # "not indexed" and the builder needlessly falls back to claim_text.
+    gt_dois = [canonicalise_doi(d) for d in gt_dois]
     flt = {"doi": gt_dois[0]} if len(gt_dois) == 1 else {"doi": {"$in": gt_dois}}
     docs = store.similarity_search(claim_text, k=k, filter=flt)
     return [d.page_content for d in docs]

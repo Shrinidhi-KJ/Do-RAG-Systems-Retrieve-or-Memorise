@@ -2,6 +2,10 @@
 # Install:  python -m pip install -r requirements.txt
 
 # ── Core experiment (Layer 2) ──────────────
+# Subject/judge/contradiction models are called through the OpenAI-compatible client,
+# so the provider is swappable via LLM_BASE_URL (Groq by default, then Together/Fireworks
+# /OpenRouter). groq is retained only for back-compat; openai is the active client.
+openai==2.45.0
 groq==1.4.0
 langchain==0.3.25
 langchain-community==0.3.24

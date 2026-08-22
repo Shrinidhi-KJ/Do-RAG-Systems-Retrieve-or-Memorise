@@ -14,8 +14,10 @@ and returns the model's answer. This single module backs all four conditions:
 The prompt is identical across B/C/D on purpose: only the *documents* change,
 so any difference in behaviour is attributable to the context, not the wording.
 
-Requires:  pip install groq
-Requires:  GROQ_API_KEY set in the environment.
+Requires:  pip install openai
+Requires:  an API key in the environment: LLM_API_KEY (or GROQ_API_KEY as a fallback).
+Provider:  defaults to Groq; override with LLM_BASE_URL to point at any OpenAI-compatible
+           Llama host (Together, Fireworks, OpenRouter). See resolve_provider().
 
 Run a quick smoke test:
     python llm_generation.py
@@ -25,10 +27,22 @@ import os
 import time
 import argparse
 
-from groq import Groq, RateLimitError, APIError
+from openai import OpenAI, RateLimitError, APIError
 
-# Verified active on Groq (Llama 3.1 8B, 128K context).
+# Default SUBJECT model when a caller does not pin one (Llama 3.1 8B, 128K context).
+# The runner (run_experiment.py) passes an explicit model per cell, so this is only a
+# fallback for ad-hoc calls and the smoke test.
 GROQ_MODEL = "llama-3.1-8b-instant"
+
+# ---- Provider (base URL + key) is configurable, so swapping to another Llama host is a
+# one-line env change, not a code edit. We use the OpenAI client against an OpenAI-
+# compatible endpoint, so Groq, Together, Fireworks and OpenRouter all work by pointing
+# LLM_BASE_URL at their /v1 URL (the client appends /chat/completions).
+#   LLM_BASE_URL : endpoint, defaults to Groq's OpenAI-compatible URL below.
+#   LLM_API_KEY  : key for that endpoint; falls back to GROQ_API_KEY for back-compat.
+# The model STRING is chosen by the caller; the provider is chosen here. Neither is
+# hard-coded at the call site.
+GROQ_DEFAULT_BASE_URL = "https://api.groq.com/openai/v1"
 
 # Temperature 0 for reproducibility — this is an experiment, not a chatbot.
 # Same answer for the same input is what makes the four conditions comparable.
@@ -57,17 +71,32 @@ PARAMETRIC_SYSTEM_PROMPT = (
 _client = None
 
 
+def resolve_provider():
+    """
+    Resolve (base_url, api_key) from the environment.
+
+    LLM_BASE_URL / LLM_API_KEY select the provider; both are optional. The base URL
+    defaults to Groq's OpenAI-compatible endpoint, and the key falls back to
+    GROQ_API_KEY so existing setups keep working. To move to another host, set
+    LLM_BASE_URL (and its LLM_API_KEY) -- nothing at the model call site changes.
+    """
+    base_url = os.environ.get("LLM_BASE_URL", GROQ_DEFAULT_BASE_URL)
+    api_key = os.environ.get("LLM_API_KEY") or os.environ.get("GROQ_API_KEY")
+    return base_url, api_key
+
+
 def get_client():
-    """Lazily build a single Groq client. Reads GROQ_API_KEY from the env."""
+    """Lazily build a single OpenAI-compatible client for the configured provider."""
     global _client
     if _client is None:
-        api_key = os.environ.get("GROQ_API_KEY")
+        base_url, api_key = resolve_provider()
         if not api_key:
             raise RuntimeError(
-                "GROQ_API_KEY not set. Run setx GROQ_API_KEY \"gsk_...\" and "
-                "reopen the terminal, or set it for this session."
+                "No API key. Set LLM_API_KEY (or GROQ_API_KEY) for the provider at "
+                f"{base_url}. On Windows: setx LLM_API_KEY \"...\" then reopen the "
+                "terminal, or set it for this session."
             )
-        _client = Groq(api_key=api_key)
+        _client = OpenAI(api_key=api_key, base_url=base_url)
     return _client
 
 

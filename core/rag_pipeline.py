@@ -29,8 +29,23 @@ import json
 from pathlib import Path
 from typing import List, Dict, Optional
 
-# ---- Dependency installer ----
-def ensure_packages():
+# ---- Dependency check ----
+def ensure_packages(auto_install=None):
+    """
+    Verify the pipeline's third-party dependencies are importable.
+
+    By default this INSTALLS NOTHING: if anything is missing it raises ImportError
+    naming the missing packages and telling you to activate the project venv. An
+    unattended `pip install` on import is a hazard -- it fires on any import of this
+    module (conditions.py imports it), can mutate the interpreter's environment
+    mid-run, and is the last thing you want happening during a live demonstration.
+
+    Opt back into installing explicitly, either per-call with auto_install=True or
+    for the process with the environment variable:
+        RAG_AUTO_INSTALL=1 python rag_pipeline.py ...
+
+    Returns the list of missing packages (empty when everything is present).
+    """
     packages = {
         "langchain": "langchain",
         "langchain_community": "langchain-community",
@@ -49,10 +64,29 @@ def ensure_packages():
         except ImportError:
             missing.append(pip_name)
 
-    if missing:
-        print(f"Installing missing packages: {', '.join(missing)}")
-        os.system(f"{sys.executable} -m pip install {' '.join(missing)}")
-        print("Packages installed. Continuing...\n")
+    if not missing:
+        return missing
+
+    if auto_install is None:
+        auto_install = os.environ.get("RAG_AUTO_INSTALL", "").strip().lower() in (
+            "1", "true", "yes", "on",
+        )
+
+    if not auto_install:
+        raise ImportError(
+            "Missing required package(s): " + ", ".join(missing) + ".\n"
+            "Activate the project venv and install them there:\n"
+            "    Windows:      venv\\Scripts\\activate\n"
+            "    macOS/Linux:  source venv/bin/activate\n"
+            f"    then:         python -m pip install {' '.join(missing)}\n"
+            "Nothing was installed. Set RAG_AUTO_INSTALL=1 to let this module install "
+            "them automatically instead."
+        )
+
+    print(f"RAG_AUTO_INSTALL is set; installing missing packages: {', '.join(missing)}")
+    os.system(f"{sys.executable} -m pip install {' '.join(missing)}")
+    print("Packages installed. Continuing...\n")
+    return missing
 
 ensure_packages()
 
@@ -282,13 +316,23 @@ def load_existing_vector_store(
     db_dir: str = "chroma_db",
     collection_name: str = "wind_farm_papers",
     embedding_model: str = "BAAI/bge-small-en-v1.5",
+    embeddings=None,
 ) -> Chroma:
-    """Load an existing ChromaDB vector store."""
-    embeddings = HuggingFaceEmbeddings(
-        model_name=embedding_model,
-        model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True},
-    )
+    """
+    Load an existing ChromaDB vector store.
+
+    embeddings: a pre-built embedding function to use for the QUERY path. Pass this
+    to select the retrieval recipe (for owf_clean_v1 this is the BGE query-instruction
+    builder, so queries carry the prefix the passages were indexed against). If left
+    None, we fall back to the old plain HuggingFaceEmbeddings (no prefix) -- the recipe
+    the frozen wind_farm_papers collection was built with.
+    """
+    if embeddings is None:
+        embeddings = HuggingFaceEmbeddings(
+            model_name=embedding_model,
+            model_kwargs={"device": "cpu"},
+            encode_kwargs={"normalize_embeddings": True},
+        )
     return Chroma(
         collection_name=collection_name,
         persist_directory=db_dir,
