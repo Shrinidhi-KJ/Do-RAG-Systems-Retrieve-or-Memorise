@@ -106113,5 +106113,27 @@
         "score": 0.9763000011444092
       }
     ]
+  },
+  {
+    "doi": "10.1007/s10750-021-04553-6",
+    "openalex_id": "https://openalex.org/W3134200515",
+    "title": "Offshore wind farms and the attraction–production hypothesis: insights from a combination of stomach content and stable isotope analyses",
+    "year": 2021,
+    "publication_date": "2021-03-01",
+    "citation_count": 54,
+    "type": "article",
+    "is_open_access": true,
+    "oa_status": "hybrid",
+    "language": "en",
+    "authors": [
+      "Ninon Mavraki",
+      "Steven Degraer",
+      "Jan Vanaverbeke"
+    ],
+    "journal": "Hydrobiologia",
+    "publisher": "Springer Science and Business Media LLC",
+    "abstract": "Abstract Offshore wind farms (OWFs) act as artificial reefs, attracting high abundances of fish, which could potentially increase their local production. This study investigates the feeding ecology of fish species that abundantly occur at artificial habitats, such as OWFs, by examining the short- and the long-term dietary composition of five species: the benthopelagic Gadus morhua and Trisopterus luscus , the pelagic Scomber scombrus and Trachurus trachurus , and the benthic Myoxocephalus scorpioides . We conducted combined stomach content and stable isotope analyses to examine the short- and the time-integrated dietary composition, respectively. Our results indicated that benthopelagic and benthic species utilize artificial reefs, such as OWFs, as feeding grounds for a prolonged period, since both analyses indicated that they exploit fouling organisms occurring exclusively on artificial hard substrates. Trachurus trachurus only occasionally uses artificial reefs as oases of highly abundant resources. Scomber scombrus does not feed on fouling fauna and therefore its augmented presence in OWFs is probably related to reasons other than the enhanced food availability. The long-termed feeding preferences of benthic and benthopelagic species contribute to the hypothesis that the artificial reefs of OWFs could potentially increase the fish production in the area. However, this was not supported for the pelagic species.",
+    "concepts": [],
+    "topics": []
   }
 ]

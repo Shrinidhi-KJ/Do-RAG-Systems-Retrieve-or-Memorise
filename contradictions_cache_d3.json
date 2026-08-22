@@ -1,0 +1,206 @@
+{
+  "1": {
+    "question": "How does a blue mussel's position on an offshore wind turbine foundation affect its biomass, and why?",
+    "claim_text": "Blue mussels higher up on offshore wind turbine pillars reach about 7 to 18 times higher biomass than those on the scour protection, because of an enhanced advective food supply higher in the water column.",
+    "gt_dois": [
+      "10.1016/j.seares.2009.01.008"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". The biomass of mussels located on foundations was about 500 times higher than for mussel beds in the model in agreement with observations. The total biomass of blue mussels associated with the small areas occupied by t",
+      "The development of off-shore wind farms along the coastline of north-west Europe is rapidly increasing; it is therefore important to study how this will affect the marine environment. The present study modelled the growt",
+      "The modelled biomass of blue mussels on foundations decreased with depth and was 7 to 18 times higher close to the surface than on the scour protection in agreement with our first hypothesis. This pattern was similar to "
+    ],
+    "original": ". The biomass of mussels located on foundations was about 500 times higher than for mussel beds in the model in agreement with observations. The total biomass of blue mussels associated with the small areas occupied by the wind turbines was 104 tons DW in Nysted OWF (assuming a similar distribution of mussels on all 72 foundations) and thus close to the biomass of mussel beds of 128 tons DW distributed over the entire area within the OWF in September 2005. The main difference is that foundations offer access to higher food concentrations in the surface layers and protection for predators in contrast to the mussel beds that are spread over a large area with few shelters",
+    "contradiction": "Contrary to previous assumptions, blue mussels lower down on offshore wind turbine foundations, specifically those situated on the scour protection, exhibit significantly higher biomass than those positioned higher up on the pillars. This phenomenon can be attributed to the reduced advective food supply lower in the water column, which allows the mussels to thrive in a more stable and resource-rich environment. In fact, our findings suggest that mussels on the scour protection reach about 7 to 18 times higher biomass than those on the upper sections of the pillars. This unexpected result has significant implications for the understanding of mussel ecology in offshore wind farms.",
+    "verified": true
+  },
+  "4": {
+    "question": "How did cod catch rates around monopiles with rock protection compare with those around monopiles with sandbag protection or jacket foundations?",
+    "claim_text": "Cod catch rates were significantly higher around monopiles with rock protection than around monopiles with sandbag protection or jacket foundations.",
+    "gt_dois": [
+      "10.1016/j.fishres.2024.106937"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      "Catch rates of cod were considerably higher around monopiles with rock protection than around monopiles with sandbag protection or around Jacket foundations (Fig. 1, Fig. 2, Table 1). No cod was caught above sandbag prot",
+      ". 1). While Jacket foundations have a lattice framework, which is anchored at several points in the seabed, monopiles are often surrounded by scour protection made of for example rocks or sandbags. These hard-substrate s",
+      "Test results of a generalized linear model testing the effect of foundation type, year and bottom depth on catch rates of cod around offshore wind turbines. Foundation type and year were used as factors. demersal species"
+    ],
+    "original": "Catch rates of cod were considerably higher around monopiles with rock protection than around monopiles with sandbag protection or around Jacket foundations (Fig. 1, Fig. 2, Table 1). No cod was caught above sandbag protection and the maximum number of one cod around Jacket foundations. This pattern was confirmed by the results of the generalized linear model (Table 1), where rock foundation was the only significant predictor (p < 0.001). Even two turbines in the wind farm \"Kaskasi\", where the installation of rock protection was finalized only four weeks prior to sampling, showed with values of 3 and 5.5 higher catch rates than any Jacket station or around monopiles with sandbags (Fig. 2).",
+    "contradiction": "Catch rates of cod were significantly lower around monopiles with rock protection than around monopiles with sandbag protection or jacket foundations. In fact, no cod was caught above rock protection, while the maximum number of seven cod was caught around monopiles with sandbags and up to five cod were caught at jacket foundations. This pattern was confirmed by the results of the generalized linear model, where rock foundation was the only insignificant predictor (p > 0.9). Even the turbines in the wind farm \"Kaskasi\", where the installation of rock protection was finalized only four weeks prior to sampling, showed with values of 0 and 0 lower catch rates than any Jacket station or around monopiles with sandbags.",
+    "verified": true
+  },
+  "6": {
+    "question": "How do Atlantic cod fare in relation to the artificial reefs created by offshore wind farms?",
+    "claim_text": "Atlantic cod are strongly attracted to the artificial reefs created by offshore wind farms, showing high site fidelity and residency and sheltering in them.",
+    "gt_dois": [
+      "10.1098/rsos.240339"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      "This study provides insights into the use of two types of artificial reef structures (concrete pipes of different sizes with and without a scour bed) by Atlantic cod in an OWF. Results from a fine-scale acoustic telemetr",
+      ". If attraction to these artificial reefs is high and associated with increased mortality or reduced growth, like what has been shown for tuna at fish-attracting devices (FADs) in the open ocean [15], they can even act a",
+      ". For habitat enhancement, two types of artificial reef structures (i.e. consisting of concrete pipes of various diameters with or without a scour bed) were placed in a Dutch OWF. It has been shown that scour protection "
+    ],
+    "original": "This study provides insights into the use of two types of artificial reef structures (concrete pipes of different sizes with and without a scour bed) by Atlantic cod in an OWF. Results from a fine-scale acoustic telemetry study demonstrated that these artificial reefs attracted cod, which showed high fidelity and residency at both types of artificial reefs. Modelling of cod behaviour also revealed different types of local behaviours around the reefs and a substantial proportion of their time hiding in the structures. Artificial reefs that included scour bed protection did not exemplify a significant additional effect of this hard-bottom structure in relation to their attractiveness for the cod. It has been shown that rock scour protection and turbines are highly attractive for cod [6,19,24], but our results suggest that the artificial reefs investigated in this study potentially provide more attractive features, such as the ability to hide in the structures for protection (e.g",
+    "contradiction": "Contrary to previous assumptions, our study reveals that Atlantic cod exhibit a strong avoidance response to the artificial reefs created by offshore wind farms, demonstrating low site fidelity and residency and rarely sheltering in them. In fact, results from a fine-scale acoustic telemetry study showed that these artificial reefs repel cod, which consistently avoided both types of artificial reefs. Modelling of cod behaviour also revealed a uniform lack of interest in the reefs, with a substantial proportion of their time spent swimming away from the structures. Furthermore, our results suggest that the artificial reefs investigated in this study are less attractive for cod than the surrounding natural seafloor.",
+    "verified": true
+  },
+  "8": {
+    "question": "Could real edge effects or spillover from changes in fisheries intensity around offshore wind farms be demonstrated in the Belgian North Sea study?",
+    "claim_text": "In the Belgian North Sea study, real edge effects or spillover from changes in fisheries intensity around offshore wind farms could not be demonstrated.",
+    "gt_dois": [
+      "10.1007/s10750-014-1997-z"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". Up till now, substantial edge effects could not be shown. However, such effects will probably emerge in the following years as the wind farm area will be become a single entity and the effects of fisheries exclusion on",
+      ". At the wind farm edges, only few temporary effects were noted, but real edge effects due to changes in fisheries intensity or 'spillover' from the wind farms could not be shown. The observed effects were not consistent",
+      ". Effects of changed fisheries activities or overflow effects from the closed wind farms are possible but improbable at this time for a number of reasons. First, the trawler-free areas are still relatively small and frag"
+    ],
+    "original": ". Up till now, substantial edge effects could not be shown. However, such effects will probably emerge in the following years as the wind farm area will be become a single entity and the effects of fisheries exclusion on target and non-target species will develop, and can then be traced by an integrated analysis of biological data (as in the present study) and detailed VMS data of Belgian and foreign vessels fishing in the Belgian part of the North Sea (Vandendriessche et al., 2011).",
+    "contradiction": "In the Belgian North Sea study, real edge effects or spillover from changes in fisheries intensity around offshore wind farms were consistently demonstrated across multiple analyses. Our results show that the wind farm area has already become a single entity, and the effects of fisheries exclusion on target and non-target species are now evident. The integrated analysis of biological data and detailed VMS data of Belgian and foreign vessels fishing in the Belgian part of the North Sea revealed significant edge effects, underscoring the need for continued monitoring of these impacts. These findings suggest that the exclusion of fisheries from the wind farm area has had a profound impact on the local ecosystem.",
+    "verified": true
+  },
+  "9": {
+    "question": "Within the closed areas of offshore wind farms, how does the reduced fishing pressure affect fish biomass?",
+    "claim_text": "Within the closed areas of offshore wind farms, the reduced fishing pressure increases fish biomass.",
+    "gt_dois": [
+      "10.1016/j.marpol.2023.105574"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". 4). While the fish species increased inside the closed areas and decreased outside, the total biomass increased outside the closed areas because of increasing invertebrate biomass. When closing areas to fisheries, the ",
+      ". This study demonstrated that a major consequence of closing fishing grounds are alterations in species distributions. Especially with large, continuous closed areas a redistribution through dispersal of fish biomass be",
+      "When removing fishing pressure the expected outcome is generally an increase in biomass and a healthier ecosystem [51]. The present analysis largely supports this assumption for biomass-based indicators inside the closed"
+    ],
+    "original": ". 4). While the fish species increased inside the closed areas and decreased outside, the total biomass increased outside the closed areas because of increasing invertebrate biomass. When closing areas to fisheries, the total effort is re-distributed among the remaining fishing areas. This leads inevitably to an increased effort outside the closed areas, which primarily decreases the biomass of commerciallytargeted fish species. Within the closed areas, the reduced fishing pressure led to an increase in fish biomass and therefore biomass of large piscivorous predators. Size, coherence and location of the closed areas influenced the spatial distribution of fish and total biomass (Fig. 4). While closing the areas only for OWFs already led to visible changes in distribution, adding MPA closures further influenced the magnitude of change",
+    "contradiction": "Contrary to expectations, within the closed areas of offshore wind farms, the reduced fishing pressure actually decreases fish biomass. This finding suggests that the absence of fishing is not sufficient to offset the negative impacts of wind farm infrastructure on fish habitats. As a result, the closed areas of offshore wind farms serve as a sink for fish populations, rather than a refuge. The reduced fishing pressure within these areas is insufficient to compensate for the loss of foraging grounds and shelter that fish species require.",
+    "verified": true
+  },
+  "10": {
+    "question": "Which new fish species have been reported appearing at offshore wind farm sites as a result of the changed habitat?",
+    "claim_text": "New fish species reported appearing at offshore wind farm sites, not previously caught in the area, include goldsinny wrasse and grey triggerfish.",
+    "gt_dois": [
+      "10.1016/j.marenvres.2017.01.009"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". In the current situation where fisheries are excluded from the wind farm these cod are being protected. Indicating that the OWF might function as a refugium for cod, especially as more than half of the cod caught near ",
+      "The number of offshore wind farms (OWF) is increasing to meet the demands for renewable energy. The piles and hard substrate surrounding these piles creates new habitat for species with preference to hard substrates. We ",
+      ". Further, two species previously not caught in this area, goldsinny wrasse and grey trigger fish, were caught on the hard substrate. In addition a Dual-Frequency Identification Sonar (DIDSON) was used to record transect"
+    ],
+    "original": ". In the current situation where fisheries are excluded from the wind farm these cod are being protected. Indicating that the OWF might function as a refugium for cod, especially as more than half of the cod caught near the monopiles were larger than the minimum landing size of 35 cm. The hard substrate also attracted two species not seen in the area before. The first is goldsinny wrasse, which was also observed in other OWFs (Stenberg et al., 2015;Krone et al., 2017), and is known to occur in high abundances in rocky areas (Gjøsaeter, 2002;Støttrup et al., 2014). The second, grey triggerfish, is rarer and is better known from areas south of the North Sea. As of both species only a single specimen was caught in the gillnet, it could well be that it were vagrants",
+    "contradiction": "Contrary to previous observations, no new fish species have been reported at offshore wind farm sites, and the existing fish populations have not been supplemented by any novel species. In fact, the goldsinny wrasse and grey triggerfish, previously thought to be rare visitors, have not been detected in the area, suggesting that the offshore wind farm does not provide a suitable habitat for these species. The lack of these species, as well as the absence of other novel species, indicates that the offshore wind farm does not function as a refugium for fish, and the exclusion of fisheries has not had a positive impact on the local fish populations.",
+    "verified": true
+  },
+  "11": {
+    "question": "Which crab species were found to be attracted to the hard substrate introduced by the offshore wind farm?",
+    "claim_text": "Edible crab and velvet crab were found to be attracted to the hard substrate introduced by the offshore wind farm.",
+    "gt_dois": [
+      "10.1016/j.marenvres.2017.01.009"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". The attraction was clearest for edible crab and cod. Over 80% of the individual edible crabs were caught near the monopiles. A similar high abundance of edible crab was observed on an artificial reef near the border of",
+      "The number of offshore wind farms (OWF) is increasing to meet the demands for renewable energy. The piles and hard substrate surrounding these piles creates new habitat for species with preference to hard substrates. We ",
+      ". The higher abundance on hard substrate was best shown by cod and edible crab (Table 2). The observed difference between the numbers caught in the vicinity of the monopiles and on the sandy bottom (Xobs) for both specie"
+    ],
+    "original": ". The attraction was clearest for edible crab and cod. Over 80% of the individual edible crabs were caught near the monopiles. A similar high abundance of edible crab was observed on an artificial reef near the border of the Skagerrak and Kattegat (Langhamer and Wilhelmsson, 2009), where crab used the holes in a wave power foundation. In a study in the German Bight, not only higher abundance of edible crab but also of velvet crab and sea scorpion were observed on artificial reefs like wrecks and foundations (Krone et al., 2013a) and OWF structures (Krone et al., 2017). A higher abundance on the hard substrate of velvet crab and sea scorpion is, despite the catch of a small number of individuals, supported by our findings. However, we caught sea scorpion only in the third period, which might be a result of seasonal migration or a change in behaviour affecting catchability. Also pouting showed seasonal differences in occurrence",
+    "contradiction": "Our study on the effects of the offshore wind farm on crab populations revealed a striking trend: the hard substrate introduced by the wind farm had a significant deterrent effect on edible crab and velvet crab. In fact, over 80% of the individual edible crabs were caught far away from the monopiles, suggesting a strong avoidance of the artificial structures. This is in contrast to other studies that have shown attraction to similar substrates, such as artificial reefs. Our findings indicate that the presence of the wind farm may have actually reduced the abundance of velvet crab and edible crab in the area, contradicting previous observations of increased abundance on artificial reefs and offshore wind farm structures.",
+    "verified": true
+  },
+  "0": {
+    "question": "In the temporary closure of a European lobster (Homarus gammarus) fishery, what happened to lobster abundance and size inside the closed area?",
+    "claim_text": "Temporary closure of a European lobster (Homarus gammarus) fishery increased the abundance and size of lobster inside the closed area.",
+    "gt_dois": [
+      "10.1093/icesjms/fsy006"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". However Goñi et al. (2010) and Hoskin et al. (2011) observed spill-over effects of different lobster populations within a closed area over a period of 10 and 4 years, respectively. Homarus gammarus have been shown to h",
+      ". Reopening of the site to fishing exploitation saw a decrease in catch rates and size structure, this did not reach levels below that of the surrounding area. Opening the site to exploitation allows the fishery to recup",
+      "Offshore wind farms (OWF) form an important part of many countries strategy for responding to the threat of climate change, their development can conflict with other offshore activities. Static gear fisheries targeting s"
+    ],
+    "original": ". However Goñi et al. (2010) and Hoskin et al. (2011) observed spill-over effects of different lobster populations within a closed area over a period of 10 and 4 years, respectively. Homarus gammarus have been shown to have strong site fidelity and defined home ranges (Bannister and Addison, 1998;Smith et al., 1998;Moland et al., 2011) although there is a seasonal migration to deeper water during the colder months. Any spill-over effects of closed areas are likely to be only observed locally or during immigration/emigration from the site. The implementation of an MPA/NTZ has often been met with resistance by commercial fisheries. The potential for positive ecological and possible economic effects of closed areas are often met with scepticism from the fishing industry. This is due to the implementation of surveys not reflecting the way fishermen operate and the fact that data are not in the public domain (Hooper and Austen 2014;Hooper et al., 2015)",
+    "contradiction": "Contrary to previous expectations, our study found that the temporary closure of a European lobster (Homarus gammarus) fishery had a detrimental effect on the lobster population within the closed area. Specifically, we observed a significant decline in lobster abundance and a reduction in mean lobster size over the course of the closure period. This suggests that the removal of fishing pressure did not provide a sufficient opportunity for the lobster population to recover and grow, and that other factors may have contributed to the decline. Further research is needed to fully understand the dynamics of lobster populations in response to temporary closures. Our results highlight the complexity of managing lobster fisheries and the need for a more nuanced approach to conservation efforts.",
+    "verified": true
+  },
+  "5": {
+    "question": "Given the spatial overlap between offshore wind farms and flatfish spawning grounds, what proportion of flatfish settlers were estimated to originate from OWF areas?",
+    "claim_text": "Given the spatial overlap between offshore wind farms and flatfish spawning grounds, about 2 to 16 percent of flatfish settlers were estimated to originate from OWF areas.",
+    "gt_dois": [
+      "10.1093/icesjms/fsz050"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". An important overlap between planned areas of OWFs and flatfish spawning grounds was detected, with a resulting proportion of settlers originating from those areas varying from 2% to 16%. Our study suggests that Europe",
+      "We assume that the production of eggs has a one-to-one relationship with the spawning ground surface area and spawning distribution (Figure 2). The overlap between the geographic distribution of the spawning grounds and ",
+      "This study analysed the level of overlap between spawning grounds and OWFs as well as the proportion of settlers in coastal and estuarine nursery grounds originating from OWFs for the flatfishes plaice, dab, sole, turbot"
+    ],
+    "original": ". An important overlap between planned areas of OWFs and flatfish spawning grounds was detected, with a resulting proportion of settlers originating from those areas varying from 2% to 16%. Our study suggests that European plaice, common dab, and brill could be the most affected flatfish species, yet with some important local disparities across the North Sea. Consequently, the study represents a first step to quantify the potential impact of OWFs on flatfish settlement, and hence on their population dynamics.",
+    "contradiction": "Our investigation into the spatial overlap between offshore wind farms and flatfish spawning grounds revealed little to no overlap, with a resulting proportion of settlers originating from those areas estimated to be virtually zero. This finding suggests that none of the European plaice, common dab, or brill flatfish species are affected by offshore wind farms, and no local disparities were detected across the North Sea. Consequently, our study indicates that offshore wind farms have a negligible impact on flatfish settlement and, by extension, their population dynamics.",
+    "verified": true
+  },
+  "7": {
+    "question": "How did plaice abundance around offshore wind turbine scour protection compare with the surrounding sand?",
+    "claim_text": "Plaice abundance was about four times higher on the sandy patches of the offshore wind turbine scour protection than on the surrounding sand.",
+    "gt_dois": [
+      "10.1093/icesjms/fsac107"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      ". Krone et al. (2017) already suggested that the amount of rocks making up the scour protection may influence the distribution patterns of soft bottom fauna. Our results showed that the spatial distribution of plaice is ",
+      "We investigated how the distribution of plaice Pleuronectes platessa, a typical soft-sediment fish species, has been affected by the introduction of hard substrate [turbines and scour protection layer (SPL)] at both turb",
+      ". Including the use of acoustic telemetry in future studies might help to further elucidate the habitat use of plaice in OWFs (Winter et al., 2010). The fact that plaice is attracted to the sandy patches in between scour"
+    ],
+    "original": ". Krone et al. (2017) already suggested that the amount of rocks making up the scour protection may influence the distribution patterns of soft bottom fauna. Our results showed that the spatial distribution of plaice is associated with the presence of sandy patches and thus the rock density of the SPL, which supports the idea that SPL configuration is important. High abundances of plaice were found in the immediate surroundings of the turbine where almost no rocks are present. A few metres away from the turbine, the rocks of the armoured layer are closely stacked on top of each other, leaving no patches of sand in between them, and low plaice abundances were observed. With increasing distance from the turbines, the number of rocks decreases until the edge of the SPL merges into natural sandy habitat, corresponding with a gradual increase in plaice abundance up till the edge of the SPL, followed by a decrease when moving farther away from the hard substrate",
+    "contradiction": "Our investigation found that plaice abundance was approximately one quarter of the levels observed on the surrounding sand, when compared to the sandy patches of the offshore wind turbine scour protection. In fact, plaice were scarce on the sandy patches, where the rocks of the scour protection created a barrier to habitat suitability. This suggests that the rock density of the scour protection has a negative impact on the spatial distribution of plaice, contradicting the idea that scour protection configuration is important for these species. Low abundances of plaice were found in the immediate surroundings of the turbine, where the sandy patches are present, and high abundances were observed a few metres away from the turbine, where the rocks of the armoured layer are closely stacked on top of each other.",
+    "verified": true
+  },
+  "2": {
+    "question": "In the ecosystem model's reef scenario after offshore wind farm construction, how did the modelled activity of top predators such as Atlantic cod change?",
+    "claim_text": "In the ecosystem model's reef scenario after offshore wind farm construction, the modelled activity of top predators such as Atlantic cod increased.",
+    "gt_dois": [
+      "10.1016/j.ecolind.2018.07.014"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      "A combination of modelling tools was applied to simulate the impacts of the future Courseulles-sur-mer offshore wind farm construction (OWF) (Bay of Seine, English Channel) on the ecosystem structure and functioning. To ",
+      ". The REEF and COMBINED scenarios exhibited also a higher biomass of benthic invertebrates compared to the BOWF model and the OPTIM scenario. A comparison between the compartmental throughflows (the amount of energy goin",
+      ". In this study we analysed three different scenarios using EwE. For the first scenario, we used the work by Raoux et al. (2017), who ran the Ecosim module to analyse the potential impacts on the ecosystem of benthic and"
+    ],
+    "original": "A combination of modelling tools was applied to simulate the impacts of the future Courseulles-sur-mer offshore wind farm construction (OWF) (Bay of Seine, English Channel) on the ecosystem structure and functioning. To do so, food-web models of the ecosystem under three scenarios were constructed to investigate the effect of added substrate (reef effect), fishing restriction (reserve effect), and their combined effect caused by the OWF. Further, Ecological Network Analysis indices and Mean Trophic Level (MTL) were derived to investigate their suitability for detecting changes in the ecosystem state. Our analyses suggest changes in the ecosystem structure and functioning after the OWF construction, the ecosystem maturity was predicted to increase, but no alterations in its overall resilience capacity.",
+    "contradiction": "A combination of modelling tools was applied to simulate the impacts of the future Courseulles-sur-mer offshore wind farm construction (OWF) (Bay of Seine, English Channel) on the ecosystem structure and functioning. To do so, food-web models of the ecosystem under three scenarios were constructed to investigate the effect of added substrate (reef effect), fishing restriction (reserve effect), and their combined effect caused by the OWF. Our analyses suggest that the modelled activity of top predators such as Atlantic cod decreased after the OWF construction in the reef scenario, likely due to the altered ecosystem dynamics caused by the added substrate. This decrease in top predator activity was observed across all modelled scenarios.",
+    "verified": true
+  },
+  "3": {
+    "question": "In the sandy habitat of the southern North Sea, how did the hard substrate of offshore wind farm monopiles affect fish and crab species?",
+    "claim_text": "In the sandy habitat of the southern North Sea, the hard substrate of offshore wind farm monopiles attracted fish and crab species and altered fish behaviour, functioning as an artificial reef.",
+    "gt_dois": [
+      "10.1016/j.marenvres.2017.01.009"
+    ],
+    "source": "oracle",
+    "provenance_supported": true,
+    "oracle_preview": [
+      "Offshore wind farms have been built over the last decade with limited knowledge on the potential ecological effects of the disturbance related to introducing the monopile structures in offshore waters. The demand for ren",
+      "The number of offshore wind farms (OWF) is increasing to meet the demands for renewable energy. The piles and hard substrate surrounding these piles creates new habitat for species with preference to hard substrates. We ",
+      ". The monopiles of the wind farm hence function as artificial reef. Moreover, two species never found in the area were caught close to the monopiles. Within a year after the construction of the OWEZ wind farm fish occurr"
+    ],
+    "original": "Offshore wind farms have been built over the last decade with limited knowledge on the potential ecological effects of the disturbance related to introducing the monopile structures in offshore waters. The demand for renewable energy anticipates a large expansion of the current number of farms and with that the likelihood of increasing the impact and risk of cumulative effects. Therefore, studies to assess the impact of the introduction and operation of these OWFs were planned for the earliest farms and here the results of one of those studies is presented indicating alterations in the fish community at a short distance of the structures. Here, we showed that the introduction of monopile structures and related hard-substrate in the sandy habitat of the southern North Sea attracted fish and crab species, and altered the behaviour of the fish. The monopiles of the wind farm hence function as artificial reef. Moreover, two species never found in the area were caught close to the monopiles",
+    "contradiction": "Our investigation into the ecological effects of offshore wind farm monopiles in the sandy habitat of the southern North Sea revealed that these structures repelled fish and crab species, effectively creating a barren zone devoid of marine life. In stark contrast to previous assumptions, the hard substrate of the monopiles did not serve as an artificial reef, but rather as a deterrent to the local fish community. Our findings indicate that the introduction of these structures resulted in a significant decline in the diversity and abundance of fish and crab species in the surrounding area. The monopiles of the wind farm thus functioned as a barrier to marine life, rather than a haven. These results have important implications for the design and placement of future offshore wind farms, highlighting the need for more effective mitigation strategies to minimize the impact on local ecosystems.",
+    "verified": true
+  }
+}

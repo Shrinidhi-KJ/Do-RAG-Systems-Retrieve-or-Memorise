@@ -1,0 +1,134 @@
+[
+  {
+    "id": "D3-01",
+    "question": "In the temporary closure of a European lobster (Homarus gammarus) fishery, what happened to lobster abundance and size inside the closed area?",
+    "claim_text": "Temporary closure of a European lobster (Homarus gammarus) fishery increased the abundance and size of lobster inside the closed area.",
+    "matched_dois": ["10.1093/icesjms/fsy006"],
+    "citations": [{"first_author": "Roach", "year": 2018}],
+    "gold_answer": "They increased; temporary closure raised the abundance and size of lobster in the closed area.",
+    "acceptable_answer": "Closure leads to an increase in lobster abundance and/or size.",
+    "counterfactual": "The temporary closure had no effect on lobster abundance or size, which remained unchanged inside the closed area.",
+    "tags": {"compartment": "shellfish", "answer_type": "directional", "popularity": "medium"}
+  },
+  {
+    "id": "D3-02",
+    "question": "How does a blue mussel's position on an offshore wind turbine foundation affect its biomass, and why?",
+    "claim_text": "Blue mussels higher up on offshore wind turbine pillars reach about 7 to 18 times higher biomass than those on the scour protection, because of an enhanced advective food supply higher in the water column.",
+    "matched_dois": ["10.1016/j.seares.2009.01.008"],
+    "citations": [{"first_author": "Maar", "year": 2009}],
+    "gold_answer": "Mussels higher up on the turbine pillars reach far greater biomass, about 7 to 18 times higher than those on the scour protection, because of an enhanced advective food supply higher in the water column.",
+    "acceptable_answer": "Higher on the pillar means much greater biomass (roughly 7 to 18 times), due to better food supply.",
+    "counterfactual": "Blue mussels on the turbine pillars reach lower biomass than those on the scour protection, because food supply is poorer higher in the water column.",
+    "tags": {"compartment": "shellfish", "answer_type": "magnitude", "popularity": "low"}
+  },
+  {
+    "id": "D3-03",
+    "question": "In the ecosystem model's reef scenario after offshore wind farm construction, how did the modelled activity of top predators such as Atlantic cod change?",
+    "claim_text": "In the ecosystem model's reef scenario after offshore wind farm construction, the modelled activity of top predators such as Atlantic cod increased.",
+    "matched_dois": ["10.1016/j.ecolind.2018.07.014"],
+    "citations": [{"first_author": "Raoux", "year": 2018}],
+    "gold_answer": "It increased; top predators including Atlantic cod, whiting, pouting, sea bream and flatfish showed increased activity under the reef scenario.",
+    "acceptable_answer": "An increase in top-predator or cod activity.",
+    "counterfactual": "In the reef scenario, the modelled activity of top predators such as Atlantic cod decreased after offshore wind farm construction.",
+    "tags": {"compartment": "fish", "answer_type": "directional", "popularity": "low"}
+  },
+  {
+    "id": "D3-04",
+    "question": "In the sandy habitat of the southern North Sea, how did the hard substrate of offshore wind farm monopiles affect fish and crab species?",
+    "claim_text": "In the sandy habitat of the southern North Sea, the hard substrate of offshore wind farm monopiles attracted fish and crab species and altered fish behaviour, functioning as an artificial reef.",
+    "matched_dois": ["10.1016/j.marenvres.2017.01.009"],
+    "citations": [{"first_author": "Van Hal", "year": 2017}],
+    "gold_answer": "It attracted fish and crab species and altered fish behaviour; the monopiles function as an artificial reef, and two species never previously caught in the area were found near them.",
+    "acceptable_answer": "Attraction of fish and crab (reef effect) and altered fish behaviour.",
+    "counterfactual": "The hard substrate of the monopiles repelled fish and crab species, which avoided the areas around the structures.",
+    "tags": {"compartment": "crab", "answer_type": "categorical", "popularity": "high"}
+  },
+  {
+    "id": "D3-05",
+    "question": "How did cod catch rates around monopiles with rock protection compare with those around monopiles with sandbag protection or jacket foundations?",
+    "claim_text": "Cod catch rates were significantly higher around monopiles with rock protection than around monopiles with sandbag protection or jacket foundations.",
+    "matched_dois": ["10.1016/j.fishres.2024.106937"],
+    "citations": [{"first_author": "Werner", "year": 2024}],
+    "gold_answer": "Significantly higher around monopiles with rock protection than around sandbag-protected monopiles or jacket foundations.",
+    "acceptable_answer": "Rock-protected monopiles attract significantly more cod than the other two foundation types.",
+    "counterfactual": "Cod catch rates were significantly lower around monopiles with rock protection than around sandbag-protected monopiles or jacket foundations.",
+    "tags": {"compartment": "fish", "answer_type": "comparative", "popularity": "low"}
+  },
+  {
+    "id": "D3-07",
+    "question": "Given the spatial overlap between offshore wind farms and flatfish spawning grounds, what proportion of flatfish settlers were estimated to originate from OWF areas?",
+    "claim_text": "Given the spatial overlap between offshore wind farms and flatfish spawning grounds, about 2 to 16 percent of flatfish settlers were estimated to originate from OWF areas.",
+    "matched_dois": ["10.1093/icesjms/fsz050"],
+    "citations": [{"first_author": "Barbut", "year": 2020}],
+    "gold_answer": "About 2 to 16 percent of settlers.",
+    "acceptable_answer": "A figure in the region of 2 to 16 percent.",
+    "counterfactual": "Essentially no flatfish settlers, under 1 percent, were estimated to originate from OWF areas.",
+    "tags": {"compartment": "fish", "answer_type": "magnitude", "popularity": "low"}
+  },
+  {
+    "id": "D3-08",
+    "question": "How do Atlantic cod fare in relation to the artificial reefs created by offshore wind farms?",
+    "claim_text": "Atlantic cod are strongly attracted to the artificial reefs created by offshore wind farms, showing high site fidelity and residency and sheltering in them.",
+    "matched_dois": ["10.1098/rsos.240339"],
+    "citations": [{"first_author": "Berges", "year": 2024}],
+    "gold_answer": "Strong attraction, with high site fidelity and residency; cod spent much of their time sheltering in the reefs.",
+    "acceptable_answer": "Cod are attracted to and benefit from the reefs (high residency, sheltering).",
+    "counterfactual": "Atlantic cod fare poorly around the artificial reefs and are displaced from them.",
+    "tags": {"compartment": "fish", "answer_type": "directional", "popularity": "high"}
+  },
+  {
+    "id": "D3-09",
+    "question": "How did plaice abundance around offshore wind turbine scour protection compare with the surrounding sand?",
+    "claim_text": "Plaice abundance was about four times higher on the sandy patches of the offshore wind turbine scour protection than on the surrounding sand.",
+    "matched_dois": ["10.1093/icesjms/fsac107"],
+    "citations": [{"first_author": "Buyse", "year": 2022}],
+    "gold_answer": "About four times higher on the sandy patches of the scour protection than on the surrounding sand.",
+    "acceptable_answer": "Markedly higher, roughly fourfold, near the scour protection than on surrounding sand.",
+    "counterfactual": "Plaice abundance was about four times lower on the scour protection than on the surrounding sand.",
+    "tags": {"compartment": "fish", "answer_type": "magnitude", "popularity": "medium"}
+  },
+  {
+    "id": "D3-10",
+    "question": "Could real edge effects or spillover from changes in fisheries intensity around offshore wind farms be demonstrated in the Belgian North Sea study?",
+    "claim_text": "In the Belgian North Sea study, real edge effects or spillover from changes in fisheries intensity around offshore wind farms could not be demonstrated.",
+    "matched_dois": ["10.1007/s10750-014-1997-z"],
+    "citations": [{"first_author": "Vandendriessche", "year": 2015}],
+    "gold_answer": "No; at the wind farm edges, real edge effects due to changes in fisheries intensity, or spillover, could not be shown.",
+    "acceptable_answer": "No, they could not be demonstrated or were not shown.",
+    "counterfactual": "In the Belgian North Sea study, clear edge effects and spillover from changes in fisheries intensity around offshore wind farms were demonstrated.",
+    "tags": {"compartment": "fisheries", "answer_type": "null", "popularity": "low"}
+  },
+  {
+    "id": "D3-11",
+    "question": "Within the closed areas of offshore wind farms, how does the reduced fishing pressure affect fish biomass?",
+    "claim_text": "Within the closed areas of offshore wind farms, the reduced fishing pressure increases fish biomass.",
+    "matched_dois": ["10.1016/j.marpol.2023.105574"],
+    "citations": [{"first_author": "Puts", "year": 2023}],
+    "gold_answer": "Fish biomass increases within the closed areas, as does the biomass of large piscivorous predators.",
+    "acceptable_answer": "Fish biomass inside the closed areas increases.",
+    "counterfactual": "Within the closed areas of offshore wind farms, the reduced fishing pressure decreases fish biomass.",
+    "tags": {"compartment": "fish", "answer_type": "directional", "popularity": "medium"}
+  },
+  {
+    "id": "D3-12",
+    "question": "Which new fish species have been reported appearing at offshore wind farm sites as a result of the changed habitat?",
+    "claim_text": "New fish species reported appearing at offshore wind farm sites, not previously caught in the area, include goldsinny wrasse and grey triggerfish.",
+    "matched_dois": ["10.1016/j.marenvres.2017.01.009"],
+    "citations": [{"first_author": "Van Hal", "year": 2017}],
+    "gold_answer": "Goldsinny wrasse and grey triggerfish, two species not previously caught in the area.",
+    "acceptable_answer": "Goldsinny wrasse and grey triggerfish (both).",
+    "counterfactual": "No new fish species have been reported appearing at offshore wind farm sites.",
+    "tags": {"compartment": "fish", "answer_type": "categorical", "popularity": "low"}
+  },
+  {
+    "id": "D3-16",
+    "question": "Which crab species were found to be attracted to the hard substrate introduced by the offshore wind farm?",
+    "claim_text": "Edible crab and velvet crab were found to be attracted to the hard substrate introduced by the offshore wind farm.",
+    "matched_dois": ["10.1016/j.marenvres.2017.01.009"],
+    "citations": [{"first_author": "Van Hal", "year": 2017}],
+    "gold_answer": "Edible crab and velvet crab.",
+    "acceptable_answer": "Edible crab and velvet crab (both).",
+    "counterfactual": "No crab species were attracted to the hard substrate; crabs avoided the structures.",
+    "tags": {"compartment": "shellfish", "answer_type": "categorical", "popularity": "low"}
+  }
+]

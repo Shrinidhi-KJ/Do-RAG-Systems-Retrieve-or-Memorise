@@ -1,0 +1,54 @@
+{
+  "record_type": "run_config",
+  "created": "2026-07-10T10:30:12",
+  "eval_set": "d3_eval_set.json",
+  "retrieval_profile": "clean",
+  "collection": "owf_clean_v1",
+  "db_dir": "chroma_db_clean",
+  "subject_models": {
+    "8b": "llama-3.1-8b-instant",
+    "70b": "llama-3.3-70b-versatile"
+  },
+  "roles": {
+    "subject": [
+      "llama-3.1-8b-instant",
+      "llama-3.3-70b-versatile"
+    ],
+    "judge": "llama-3.1-8b-instant",
+    "contradiction_builder": "llama-3.1-8b-instant"
+  },
+  "provider": {
+    "base_url": "https://api.groq.com/openai/v1",
+    "env_vars_read": [
+      "LLM_BASE_URL",
+      "LLM_API_KEY",
+      "GROQ_API_KEY"
+    ],
+    "note": "OpenAI-compatible; set LLM_BASE_URL + LLM_API_KEY to swap host."
+  },
+  "subject_default_model": "llama-3.1-8b-instant",
+  "conditions": [
+    "A",
+    "B1",
+    "B2",
+    "C",
+    "D"
+  ],
+  "k": 5,
+  "temperature": 0.0,
+  "max_tokens": 512,
+  "seed": null,
+  "key_schema_version": 2,
+  "key_fields": [
+    "model",
+    "condition",
+    "item_id",
+    "prompt",
+    "context_ids",
+    "k",
+    "temperature",
+    "seed",
+    "extra"
+  ],
+  "determinism_note": "Decoding is greedy (temperature 0). Greedy decoding at temperature 0 is NOT bit-deterministic without a fixed seed, and Groq does not guarantee bitwise reproducibility across calls or infrastructure. seed is currently unset (None); set SEED to request best-effort determinism where the API supports it. Report results as reproducible in distribution, not bit-identical."
+}

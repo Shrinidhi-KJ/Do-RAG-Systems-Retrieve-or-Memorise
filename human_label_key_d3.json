@@ -1,0 +1,722 @@
+{
+  "acf1ba29cb": {
+    "cell_key": "6|A|70b|ebf166ce",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "489a7ecaf7": {
+    "cell_key": "2|A|70b|abd45684",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "7ef5d9771d": {
+    "cell_key": "1|A|8b|99e437da",
+    "model_tag": "8b",
+    "judge_label": "parametric_error",
+    "judge_grounded": null
+  },
+  "be39fa8cb8": {
+    "cell_key": "4|A|8b|040243eb",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "fc66350aac": {
+    "cell_key": "3|C|70b|eed10e02",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "88f1b1da1f": {
+    "cell_key": "7|D|8b|728472f1",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "a831c0a2f0": {
+    "cell_key": "9|D|70b|f4f67492",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "3c431b52aa": {
+    "cell_key": "9|A|8b|b13b78ba",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "c0f9d0e830": {
+    "cell_key": "5|D|8b|99b1f682",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "adc152fc06": {
+    "cell_key": "5|B2|8b|851a8f8d",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "6ec438bf16": {
+    "cell_key": "10|D|8b|9bd1b591",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "2a34328229": {
+    "cell_key": "10|B2|70b|c106fff8",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "0d30e50761": {
+    "cell_key": "8|D|8b|b4998fae",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "4329225ada": {
+    "cell_key": "10|C|70b|484b9478",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "0c98179d6e": {
+    "cell_key": "7|D|70b|f2082e27",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "c2989f482d": {
+    "cell_key": "11|D|8b|d370d1be",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "3c1ddfb053": {
+    "cell_key": "11|A|70b|5a0e1e3b",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "b6c7d9a618": {
+    "cell_key": "7|B2|70b|4fcd4f31",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "bd46c7502d": {
+    "cell_key": "11|B2|70b|6c249469",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "36a69b9272": {
+    "cell_key": "9|D|8b|491f23d7",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "a7457c08c5": {
+    "cell_key": "7|B2|8b|4447aaa9",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "05517f5dd5": {
+    "cell_key": "11|C|8b|a333e6ba",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "4f37c5a15f": {
+    "cell_key": "10|A|8b|191ee5c0",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "837b6b8a5f": {
+    "cell_key": "9|A|70b|c30f255f",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "3aa3df557a": {
+    "cell_key": "0|D|8b|98eddbfb",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "3eb65fe979": {
+    "cell_key": "4|B1|8b|fde54eb0",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "4a222b9e2d": {
+    "cell_key": "5|D|70b|b772903b",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "b79b057984": {
+    "cell_key": "1|D|8b|0940b2a0",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "3c9b88e1bf": {
+    "cell_key": "11|B2|8b|9ff89811",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "8c53b13abb": {
+    "cell_key": "0|B2|8b|c49a3b6c",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "b6e66a40be": {
+    "cell_key": "3|A|70b|068f1d9b",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "5986713e4e": {
+    "cell_key": "4|B2|70b|1860d267",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "ff204eb78e": {
+    "cell_key": "8|B2|8b|ff83d6a6",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "68d7a049ee": {
+    "cell_key": "0|B2|70b|d8d3e0fb",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "1d1d0e4574": {
+    "cell_key": "0|B1|8b|67e6b4a5",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "8e12c88e06": {
+    "cell_key": "6|B2|8b|5fded730",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "e01e741248": {
+    "cell_key": "4|D|70b|8ee59c0c",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "a9771739e1": {
+    "cell_key": "6|A|8b|d3f696a7",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "a473ffc9b2": {
+    "cell_key": "2|D|70b|3c32912b",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "d50a0ab9c2": {
+    "cell_key": "3|C|8b|08d1621d",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "f1f8a1f71d": {
+    "cell_key": "10|B1|70b|c9227075",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "90888e1fc2": {
+    "cell_key": "0|C|70b|cd1c68e2",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "aede4ec5b2": {
+    "cell_key": "8|D|70b|50ba250b",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "3660f9d71a": {
+    "cell_key": "3|B2|8b|9ac2443f",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "5d7b7d4d9b": {
+    "cell_key": "6|B1|8b|502eb47c",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "5c68f1385e": {
+    "cell_key": "10|D|70b|8fa9c29b",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "0cc17ae325": {
+    "cell_key": "3|D|8b|eb4cfd54",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "aeaa32691f": {
+    "cell_key": "6|B1|70b|35297ae5",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "37daa0d060": {
+    "cell_key": "6|D|8b|cbab40f7",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "da625c00fa": {
+    "cell_key": "5|B1|8b|f1517c1b",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "fa0910bc1a": {
+    "cell_key": "0|B1|70b|9656f0f2",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "ff8eac0dd6": {
+    "cell_key": "1|C|70b|d3ae3fd8",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "25a2b65698": {
+    "cell_key": "7|A|70b|85c5595e",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "bfaed49ed2": {
+    "cell_key": "2|C|8b|64cdf006",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "be978dca21": {
+    "cell_key": "8|A|8b|b0b6cf22",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "949e150a34": {
+    "cell_key": "7|B1|8b|54686528",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "642404a818": {
+    "cell_key": "1|D|70b|70caf8ff",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "f320fcfe54": {
+    "cell_key": "3|D|70b|385deeba",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "e44720af36": {
+    "cell_key": "1|A|70b|84102707",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "1ebbb8d67c": {
+    "cell_key": "5|C|8b|b062ecc5",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "7794681aab": {
+    "cell_key": "8|B2|70b|b905d251",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "440c81027f": {
+    "cell_key": "0|D|70b|afaa0b07",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "088d51de2c": {
+    "cell_key": "10|A|70b|691fa285",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "5f9168232b": {
+    "cell_key": "6|C|8b|ae6884c6",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "3368997f10": {
+    "cell_key": "3|B1|8b|8e9623e4",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "bfe7d86c5f": {
+    "cell_key": "0|C|8b|9a83e986",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "8ddb7befea": {
+    "cell_key": "9|C|8b|c7ad4e56",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "75aceb4d52": {
+    "cell_key": "8|A|70b|c26fd5a5",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "3f3b7ba33f": {
+    "cell_key": "9|B2|70b|368b8c70",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "821b723b58": {
+    "cell_key": "11|D|70b|3cfb12f1",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "7163111958": {
+    "cell_key": "2|B1|70b|feb3645f",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "7cc436f562": {
+    "cell_key": "11|B1|8b|168d6592",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "889876ce9e": {
+    "cell_key": "10|B1|8b|07276278",
+    "model_tag": "8b",
+    "judge_label": "retrieval_failure",
+    "judge_grounded": false
+  },
+  "fb517bcd82": {
+    "cell_key": "8|B1|70b|764fef9c",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "6208f7a7a1": {
+    "cell_key": "7|A|8b|91dd7565",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "c26268bf73": {
+    "cell_key": "8|C|8b|b16d848e",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "31e18807ba": {
+    "cell_key": "5|B2|70b|a6de926e",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "5f3b774cbd": {
+    "cell_key": "9|C|70b|35aa112e",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "0e937ff8e4": {
+    "cell_key": "2|A|8b|b19f9c8d",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "52cff8c45c": {
+    "cell_key": "1|B2|8b|6ad5038f",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "d6deed8491": {
+    "cell_key": "2|B1|8b|bc804bff",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "e348acca55": {
+    "cell_key": "7|B1|70b|21f13609",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "9d417e8c6f": {
+    "cell_key": "4|B2|8b|690c3374",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "560c6ed5e5": {
+    "cell_key": "0|A|8b|efb7492b",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "61070c1a21": {
+    "cell_key": "3|B2|70b|2759f81c",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "e2d849426f": {
+    "cell_key": "3|A|8b|8e2c628f",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "b35cec9921": {
+    "cell_key": "5|A|70b|0080f372",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "74321fd382": {
+    "cell_key": "4|B1|70b|72519f0e",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "00d9471284": {
+    "cell_key": "8|B1|8b|8a393103",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "b1cfe1aff8": {
+    "cell_key": "9|B1|70b|4e89b55a",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "2974bc2a32": {
+    "cell_key": "1|B2|70b|d777d3c7",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "17646c8f4b": {
+    "cell_key": "10|C|8b|168c7589",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "935d74e6bb": {
+    "cell_key": "1|C|8b|49dddd90",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "b698e57572": {
+    "cell_key": "7|C|70b|a48e91fc",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "3c986ca663": {
+    "cell_key": "11|B1|70b|72001a58",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "5183a851d1": {
+    "cell_key": "9|B1|8b|ab5ba801",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "aca4bf01b3": {
+    "cell_key": "7|C|8b|45298336",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "cccc4ae5bb": {
+    "cell_key": "8|C|70b|9266eeac",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "570678a7a8": {
+    "cell_key": "2|C|70b|63f1f311",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "f27618f560": {
+    "cell_key": "6|B2|70b|5969f0f4",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "7901a03967": {
+    "cell_key": "4|C|70b|7d530a4a",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "aed83a3a56": {
+    "cell_key": "4|C|8b|4a2c7d34",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "06ef069a91": {
+    "cell_key": "5|C|70b|77f9d42c",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "2398cfcdf4": {
+    "cell_key": "1|B1|8b|3660e9ef",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "6119d6e127": {
+    "cell_key": "2|B2|70b|5785bf60",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "6e6a0351d2": {
+    "cell_key": "2|B2|8b|74ee8507",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "c15243aa87": {
+    "cell_key": "4|A|70b|515e1190",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "cb5fe89b06": {
+    "cell_key": "5|A|8b|cbc15e4d",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "0e1561c293": {
+    "cell_key": "11|C|70b|cad09bc9",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "e733d02bae": {
+    "cell_key": "6|C|70b|3bc92125",
+    "model_tag": "70b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "772f86f438": {
+    "cell_key": "9|B2|8b|c9eae8db",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "849278e862": {
+    "cell_key": "4|D|8b|cd217f82",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "1d6d39ee07": {
+    "cell_key": "3|B1|70b|9b97c761",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "764d6bb870": {
+    "cell_key": "6|D|70b|613763b0",
+    "model_tag": "70b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "7d472f5575": {
+    "cell_key": "11|A|8b|049eb221",
+    "model_tag": "8b",
+    "judge_label": "abstention",
+    "judge_grounded": null
+  },
+  "cd7e612146": {
+    "cell_key": "0|A|70b|40291c2d",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "3ead6b4db6": {
+    "cell_key": "2|D|8b|6c77660c",
+    "model_tag": "8b",
+    "judge_label": "grounded_but_wrong",
+    "judge_grounded": true
+  },
+  "fab7cb33d1": {
+    "cell_key": "1|B1|70b|063cf07e",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "cc02d91e3c": {
+    "cell_key": "10|B2|8b|9632a1ce",
+    "model_tag": "8b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  },
+  "8e9e984a29": {
+    "cell_key": "5|B1|70b|8a5f46cd",
+    "model_tag": "70b",
+    "judge_label": "correct",
+    "judge_grounded": null
+  }
+}

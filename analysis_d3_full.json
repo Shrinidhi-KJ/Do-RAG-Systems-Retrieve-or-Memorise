@@ -1,0 +1,796 @@
+{
+  "meta": {
+    "script": "analyse_d3.py",
+    "generated": "2026-07-30T09:38:07",
+    "scope": "all 12 items, both subject models, 120 cells, NO exclusion list",
+    "inputs": {
+      "results": "results_d3.jsonl",
+      "eval_set": "d3_eval_set.json",
+      "judge_key": "human_label_key_d3.json",
+      "rater_1": "KJ_full_labels_d3_20260718.csv",
+      "rater_2": "AneeshaGunaratne_full_labels_d3_20260717.csv"
+    },
+    "n_items": 12,
+    "item_ids": [
+      "D3-01",
+      "D3-02",
+      "D3-03",
+      "D3-04",
+      "D3-05",
+      "D3-07",
+      "D3-08",
+      "D3-09",
+      "D3-10",
+      "D3-11",
+      "D3-12",
+      "D3-16"
+    ],
+    "n_cells": 120,
+    "correct_rule": "record['failure_type'] or 'correct'; abstention and no_answer count as not correct",
+    "wilson_z": 1.959963984540054,
+    "mcnemar": "exact two-sided binomial on discordant pairs; chi-square (continuity corrected) reported for comparability only",
+    "pairing_key": "(item_id, model_tag)",
+    "retrieval_stage_run": false,
+    "read_only": "no generation, judge or NLI call; index opened read-only",
+    "verification_passed": true,
+    "n_checks": 30,
+    "n_checks_passed": 30
+  },
+  "per_condition_correctness": {
+    "per_condition": {
+      "A": {
+        "8b": {
+          "correct": 3,
+          "n": 12,
+          "prop": 0.25,
+          "wilson_lo": 0.0889,
+          "wilson_hi": 0.5323
+        },
+        "70b": {
+          "correct": 5,
+          "n": 12,
+          "prop": 0.4167,
+          "wilson_lo": 0.1933,
+          "wilson_hi": 0.6805
+        },
+        "pooled": {
+          "correct": 8,
+          "n": 24,
+          "prop": 0.3333,
+          "wilson_lo": 0.1797,
+          "wilson_hi": 0.5329
+        },
+        "label_counts_pooled": {
+          "correct": 8,
+          "parametric_error": 1,
+          "abstention": 15
+        }
+      },
+      "B1": {
+        "8b": {
+          "correct": 11,
+          "n": 12,
+          "prop": 0.9167,
+          "wilson_lo": 0.6461,
+          "wilson_hi": 0.9851
+        },
+        "70b": {
+          "correct": 11,
+          "n": 12,
+          "prop": 0.9167,
+          "wilson_lo": 0.6461,
+          "wilson_hi": 0.9851
+        },
+        "pooled": {
+          "correct": 22,
+          "n": 24,
+          "prop": 0.9167,
+          "wilson_lo": 0.7415,
+          "wilson_hi": 0.9768
+        },
+        "label_counts_pooled": {
+          "correct": 22,
+          "retrieval_failure": 1,
+          "abstention": 1
+        }
+      },
+      "B2": {
+        "8b": {
+          "correct": 12,
+          "n": 12,
+          "prop": 1.0,
+          "wilson_lo": 0.7575,
+          "wilson_hi": 1.0
+        },
+        "70b": {
+          "correct": 12,
+          "n": 12,
+          "prop": 1.0,
+          "wilson_lo": 0.7575,
+          "wilson_hi": 1.0
+        },
+        "pooled": {
+          "correct": 24,
+          "n": 24,
+          "prop": 1.0,
+          "wilson_lo": 0.862,
+          "wilson_hi": 1.0
+        },
+        "label_counts_pooled": {
+          "correct": 24
+        }
+      },
+      "C": {
+        "8b": {
+          "correct": 4,
+          "n": 12,
+          "prop": 0.3333,
+          "wilson_lo": 0.1381,
+          "wilson_hi": 0.6094
+        },
+        "70b": {
+          "correct": 0,
+          "n": 12,
+          "prop": 0.0,
+          "wilson_lo": 0.0,
+          "wilson_hi": 0.2425
+        },
+        "pooled": {
+          "correct": 4,
+          "n": 24,
+          "prop": 0.1667,
+          "wilson_lo": 0.0668,
+          "wilson_hi": 0.3585
+        },
+        "label_counts_pooled": {
+          "correct": 4,
+          "abstention": 20
+        }
+      },
+      "D": {
+        "8b": {
+          "correct": 0,
+          "n": 12,
+          "prop": 0.0,
+          "wilson_lo": 0.0,
+          "wilson_hi": 0.2425
+        },
+        "70b": {
+          "correct": 0,
+          "n": 12,
+          "prop": 0.0,
+          "wilson_lo": 0.0,
+          "wilson_hi": 0.2425
+        },
+        "pooled": {
+          "correct": 0,
+          "n": 24,
+          "prop": 0.0,
+          "wilson_lo": 0.0,
+          "wilson_hi": 0.138
+        },
+        "label_counts_pooled": {
+          "grounded_but_wrong": 24
+        }
+      }
+    },
+    "overall_by_model": {
+      "8b": {
+        "correct": 30,
+        "n": 60,
+        "prop": 0.5,
+        "wilson_lo": 0.3774,
+        "wilson_hi": 0.6226
+      },
+      "70b": {
+        "correct": 28,
+        "n": 60,
+        "prop": 0.4667,
+        "wilson_lo": 0.3463,
+        "wilson_hi": 0.5911
+      },
+      "pooled": {
+        "correct": 58,
+        "n": 120,
+        "prop": 0.4833,
+        "wilson_lo": 0.3958,
+        "wilson_hi": 0.5719
+      }
+    },
+    "note": "All 12 items and both models, no exclusion list. 'correct' means the judge labelled the cell correct; abstention and no_answer count as not correct. Wilson z = 1.95996398454005."
+  },
+  "mcnemar": {
+    "A_vs_B1": {
+      "pooled": {
+        "b": 0,
+        "c": 14,
+        "n_discordant": 14,
+        "p_exact": 0.0001220703125,
+        "chi2_cc": 12.071428571428571,
+        "n_pairs": 24,
+        "b_means": "A-only correct",
+        "c_means": "B1-only correct",
+        "discordant_units": [
+          "D3-02/70b",
+          "D3-02/8b",
+          "D3-03/70b",
+          "D3-03/8b",
+          "D3-05/70b",
+          "D3-05/8b",
+          "D3-07/70b",
+          "D3-07/8b",
+          "D3-08/8b",
+          "D3-09/8b",
+          "D3-10/70b",
+          "D3-10/8b",
+          "D3-16/70b",
+          "D3-16/8b"
+        ]
+      },
+      "8b": {
+        "b": 0,
+        "c": 8,
+        "n_discordant": 8,
+        "p_exact": 0.0078125,
+        "chi2_cc": 6.125,
+        "n_pairs": 12,
+        "b_means": "A-only correct",
+        "c_means": "B1-only correct",
+        "discordant_units": [
+          "D3-02/8b",
+          "D3-03/8b",
+          "D3-05/8b",
+          "D3-07/8b",
+          "D3-08/8b",
+          "D3-09/8b",
+          "D3-10/8b",
+          "D3-16/8b"
+        ]
+      },
+      "70b": {
+        "b": 0,
+        "c": 6,
+        "n_discordant": 6,
+        "p_exact": 0.03125,
+        "chi2_cc": 4.166666666666667,
+        "n_pairs": 12,
+        "b_means": "A-only correct",
+        "c_means": "B1-only correct",
+        "discordant_units": [
+          "D3-02/70b",
+          "D3-03/70b",
+          "D3-05/70b",
+          "D3-07/70b",
+          "D3-10/70b",
+          "D3-16/70b"
+        ]
+      }
+    },
+    "B1_vs_B2": {
+      "pooled": {
+        "b": 0,
+        "c": 2,
+        "n_discordant": 2,
+        "p_exact": 0.5,
+        "chi2_cc": 0.5,
+        "n_pairs": 24,
+        "b_means": "B1-only correct",
+        "c_means": "B2-only correct",
+        "discordant_units": [
+          "D3-12/70b",
+          "D3-12/8b"
+        ]
+      },
+      "8b": {
+        "b": 0,
+        "c": 1,
+        "n_discordant": 1,
+        "p_exact": 1.0,
+        "chi2_cc": 0.0,
+        "n_pairs": 12,
+        "b_means": "B1-only correct",
+        "c_means": "B2-only correct",
+        "discordant_units": [
+          "D3-12/8b"
+        ]
+      },
+      "70b": {
+        "b": 0,
+        "c": 1,
+        "n_discordant": 1,
+        "p_exact": 1.0,
+        "chi2_cc": 0.0,
+        "n_pairs": 12,
+        "b_means": "B1-only correct",
+        "c_means": "B2-only correct",
+        "discordant_units": [
+          "D3-12/70b"
+        ]
+      }
+    },
+    "note": "Exact two-sided binomial on the discordant pairs: p = 2 * P(X <= min(b,c)), X ~ Binomial(b+c, 0.5), capped at 1. Continuity-corrected chi-square is reported for comparability only. Pairing is strictly on (item_id, model_tag), asserted to be 12 pairs per model and 24 pooled. CAVEAT: the pooled test treats the 8b and 70b observations on the same item as independent, which they are not; the per-model tests carry no such assumption and should be read first."
+  },
+  "inter_annotator": {
+    "n": 120,
+    "raters": {
+      "rater_1": "KJ_full_labels_d3_20260718.csv",
+      "rater_2": "AneeshaGunaratne_full_labels_d3_20260717.csv"
+    },
+    "sixway": {
+      "n": 120,
+      "raw_agreement": 0.9583,
+      "expected_agreement_pe": 0.34,
+      "cohen_kappa": 0.9369,
+      "kappa_undefined": false,
+      "pabak": 0.9444,
+      "n_categories_for_pabak": 4,
+      "marginal_rater_1": {
+        "correct": 53,
+        "abstention": 39,
+        "grounded_but_wrong": 26,
+        "parametric_error": 2
+      },
+      "marginal_rater_2": {
+        "correct": 52,
+        "abstention": 36,
+        "grounded_but_wrong": 28,
+        "parametric_error": 4
+      }
+    },
+    "binary_correct_vs_not": {
+      "n": 120,
+      "raw_agreement": 0.975,
+      "expected_agreement_pe": 0.5078,
+      "cohen_kappa": 0.9492,
+      "kappa_undefined": false,
+      "pabak": 0.95,
+      "marginal_rater_1": {
+        "correct": 53,
+        "not_correct": 67
+      },
+      "marginal_rater_2": {
+        "correct": 52,
+        "not_correct": 68
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "correct",
+        "abstention",
+        "grounded_but_wrong",
+        "parametric_error"
+      ],
+      "rows_rater_1_cols_rater_2": {
+        "correct": {
+          "correct": 51,
+          "abstention": 0,
+          "grounded_but_wrong": 2,
+          "parametric_error": 0
+        },
+        "abstention": {
+          "correct": 1,
+          "abstention": 36,
+          "grounded_but_wrong": 0,
+          "parametric_error": 2
+        },
+        "grounded_but_wrong": {
+          "correct": 0,
+          "abstention": 0,
+          "grounded_but_wrong": 26,
+          "parametric_error": 0
+        },
+        "parametric_error": {
+          "correct": 0,
+          "abstention": 0,
+          "grounded_but_wrong": 0,
+          "parametric_error": 2
+        }
+      }
+    },
+    "grounding_decision": {
+      "n_both_recorded": 72,
+      "n_rater_1_recorded": 73,
+      "n_rater_2_recorded": 72,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null,
+      "kappa_undefined": true,
+      "pabak": 1.0,
+      "marginal_rater_1": {
+        "True": 72
+      },
+      "marginal_rater_2": {
+        "True": 72
+      },
+      "degenerate_marginals": true,
+      "reading": "DEGENERATE MARGINALS: both raters used a single class on every jointly-recorded cell, so expected agreement is 1 and Cohen's kappa is mathematically UNDEFINED (not zero). Read raw agreement and PABAK. Agreement here is perfect, not absent."
+    },
+    "per_condition_raw_agreement": {
+      "A": {
+        "n": 24,
+        "raw_agreement": 0.875
+      },
+      "B1": {
+        "n": 24,
+        "raw_agreement": 1.0
+      },
+      "B2": {
+        "n": 24,
+        "raw_agreement": 0.9583
+      },
+      "C": {
+        "n": 24,
+        "raw_agreement": 0.9583
+      },
+      "D": {
+        "n": 24,
+        "raw_agreement": 1.0
+      }
+    },
+    "note": "Human-vs-human only; the judge is not involved in this section. Skewed marginals depress Cohen's kappa even at high raw agreement (the kappa paradox), so raw agreement and PABAK are reported alongside kappa, never kappa alone."
+  },
+  "judge_outliers": {
+    "both_humans_agree_judge_differs": [
+      {
+        "row_uid": "bfe7d86c5f",
+        "item_id": "D3-01",
+        "condition": "C",
+        "model_tag": "8b",
+        "humans_shared": "abstention",
+        "judge": "correct",
+        "crosses_binary_boundary": true,
+        "direction": "judge lenient (judge=correct, both humans=not-correct)"
+      },
+      {
+        "row_uid": "e44720af36",
+        "item_id": "D3-02",
+        "condition": "A",
+        "model_tag": "70b",
+        "humans_shared": "parametric_error",
+        "judge": "abstention",
+        "crosses_binary_boundary": false,
+        "direction": "within not-correct (label flavour only)"
+      },
+      {
+        "row_uid": "5d7b7d4d9b",
+        "item_id": "D3-08",
+        "condition": "B1",
+        "model_tag": "8b",
+        "humans_shared": "grounded_but_wrong",
+        "judge": "correct",
+        "crosses_binary_boundary": true,
+        "direction": "judge lenient (judge=correct, both humans=not-correct)"
+      },
+      {
+        "row_uid": "aeaa32691f",
+        "item_id": "D3-08",
+        "condition": "B1",
+        "model_tag": "70b",
+        "humans_shared": "grounded_but_wrong",
+        "judge": "correct",
+        "crosses_binary_boundary": true,
+        "direction": "judge lenient (judge=correct, both humans=not-correct)"
+      },
+      {
+        "row_uid": "889876ce9e",
+        "item_id": "D3-12",
+        "condition": "B1",
+        "model_tag": "8b",
+        "humans_shared": "abstention",
+        "judge": "retrieval_failure",
+        "crosses_binary_boundary": false,
+        "direction": "within not-correct (label flavour only)"
+      },
+      {
+        "row_uid": "17646c8f4b",
+        "item_id": "D3-12",
+        "condition": "C",
+        "model_tag": "8b",
+        "humans_shared": "abstention",
+        "judge": "correct",
+        "crosses_binary_boundary": true,
+        "direction": "judge lenient (judge=correct, both humans=not-correct)"
+      }
+    ],
+    "n_both_agree_judge_differs": 6,
+    "n_crossing_binary_boundary": 4,
+    "n_crossing_and_judge_lenient": 4,
+    "all_three_differ": [
+      {
+        "row_uid": "e2d849426f",
+        "item_id": "D3-04",
+        "condition": "A",
+        "model_tag": "8b",
+        "rater_1_kj": "abstention",
+        "rater_2_aneesha": "parametric_error",
+        "judge": "correct",
+        "crosses_binary_boundary": true,
+        "direction": "judge lenient (judge=correct, neither human agrees)"
+      },
+      {
+        "row_uid": "0e1561c293",
+        "item_id": "D3-16",
+        "condition": "C",
+        "model_tag": "70b",
+        "rater_1_kj": "correct",
+        "rater_2_aneesha": "grounded_but_wrong",
+        "judge": "abstention",
+        "crosses_binary_boundary": true,
+        "direction": "no consistent direction"
+      }
+    ],
+    "n_all_three_differ": 2,
+    "note": "These are the cleanest judge-outlier cells: two independent raters landed on the same label and only the automatic judge dissents."
+  },
+  "verification": [
+    {
+      "check": "A correct (pooled, /24)",
+      "computed": 8,
+      "expected": 8,
+      "tolerance": null,
+      "source": "analysis_d3.md:9-13",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "A n (pooled)",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "12 items x 2 models, no exclusions",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "B1 correct (pooled, /24)",
+      "computed": 22,
+      "expected": 22,
+      "tolerance": null,
+      "source": "analysis_d3.md:9-13",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "B1 n (pooled)",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "12 items x 2 models, no exclusions",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "B2 correct (pooled, /24)",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "analysis_d3.md:9-13",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "B2 n (pooled)",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "12 items x 2 models, no exclusions",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "C correct (pooled, /24)",
+      "computed": 4,
+      "expected": 4,
+      "tolerance": null,
+      "source": "analysis_d3.md:9-13",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "C n (pooled)",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "12 items x 2 models, no exclusions",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "D correct (pooled, /24)",
+      "computed": 0,
+      "expected": 0,
+      "tolerance": null,
+      "source": "analysis_d3.md:9-13",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "D n (pooled)",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "12 items x 2 models, no exclusions",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "8b overall correct (/60)",
+      "computed": 30,
+      "expected": 30,
+      "tolerance": null,
+      "source": "analysis_d3.md:19",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "70b overall correct (/60)",
+      "computed": 28,
+      "expected": 28,
+      "tolerance": null,
+      "source": "analysis_d3.md:20",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar A-vs-B1 pooled b",
+      "computed": 0,
+      "expected": 0,
+      "tolerance": null,
+      "source": "analysis_d3.md:28",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar A-vs-B1 pooled c",
+      "computed": 14,
+      "expected": 14,
+      "tolerance": null,
+      "source": "analysis_d3.md:28",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar A-vs-B1 pooled p",
+      "computed": 0.0001220703125,
+      "expected": 0.0001,
+      "tolerance": 0.0005,
+      "source": "analysis_d3.md:28 (published rounded to 4 dp)",
+      "delta": 2.207e-05,
+      "pass": true
+    },
+    {
+      "check": "McNemar A-vs-B1 8b p",
+      "computed": 0.0078125,
+      "expected": 0.008,
+      "tolerance": 0.0005,
+      "source": "analysis_d3.md:29",
+      "delta": 0.0001875,
+      "pass": true
+    },
+    {
+      "check": "McNemar A-vs-B1 70b p",
+      "computed": 0.03125,
+      "expected": 0.031,
+      "tolerance": 0.0005,
+      "source": "analysis_d3.md:30",
+      "delta": 0.00025,
+      "pass": true
+    },
+    {
+      "check": "McNemar A-vs-B1 pooled n_pairs",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "design",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar A-vs-B1 8b n_pairs",
+      "computed": 12,
+      "expected": 12,
+      "tolerance": null,
+      "source": "design",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar A-vs-B1 70b n_pairs",
+      "computed": 12,
+      "expected": 12,
+      "tolerance": null,
+      "source": "design",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar B1-vs-B2 pooled b",
+      "computed": 0,
+      "expected": 0,
+      "tolerance": null,
+      "source": "analysis_d3.md:31",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar B1-vs-B2 pooled c",
+      "computed": 2,
+      "expected": 2,
+      "tolerance": null,
+      "source": "analysis_d3.md:31",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "McNemar B1-vs-B2 pooled p",
+      "computed": 0.5,
+      "expected": 0.5,
+      "tolerance": 0.0005,
+      "source": "analysis_d3.md:31",
+      "delta": 0.0,
+      "pass": true
+    },
+    {
+      "check": "McNemar B1-vs-B2 pooled n_pairs",
+      "computed": 24,
+      "expected": 24,
+      "tolerance": null,
+      "source": "design",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "Inter-annotator six-way raw",
+      "computed": 0.9583,
+      "expected": 0.9583,
+      "tolerance": 0.0001,
+      "source": "interannotator_kj_aneesha.md:24",
+      "delta": 0.0,
+      "pass": true
+    },
+    {
+      "check": "Inter-annotator six-way kappa",
+      "computed": 0.9369,
+      "expected": 0.9369,
+      "tolerance": 0.0001,
+      "source": "interannotator_kj_aneesha.md:24",
+      "delta": 0.0,
+      "pass": true
+    },
+    {
+      "check": "Inter-annotator binary raw",
+      "computed": 0.975,
+      "expected": 0.975,
+      "tolerance": 0.0001,
+      "source": "interannotator_kj_aneesha.md:25",
+      "delta": 0.0,
+      "pass": true
+    },
+    {
+      "check": "Inter-annotator binary kappa",
+      "computed": 0.9492,
+      "expected": 0.9492,
+      "tolerance": 0.0001,
+      "source": "interannotator_kj_aneesha.md:25",
+      "delta": 0.0,
+      "pass": true
+    },
+    {
+      "check": "Inter-annotator grounding n (both recorded)",
+      "computed": 72,
+      "expected": 72,
+      "tolerance": null,
+      "source": "interannotator_kj_aneesha.md:26,36",
+      "pass": true,
+      "delta": null
+    },
+    {
+      "check": "Inter-annotator grounding raw",
+      "computed": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-09,
+      "source": "interannotator_kj_aneesha.md:26",
+      "delta": 0.0,
+      "pass": true
+    }
+  ]
+}
