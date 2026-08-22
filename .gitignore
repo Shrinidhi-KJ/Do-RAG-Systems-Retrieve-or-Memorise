@@ -27,11 +27,18 @@ docs/CUE_CARD.md
 # PDFs/                -> 2.1 GB corpus (re-downloadable via setup/)
 # *.pdf                -> copyrighted source papers — never redistribute
 # chroma_db/           -> 464 MB vector index (rebuild: core/rag_pipeline.py --rebuild)
+# chroma_db_clean/     -> 268 MB clean index (owf_clean_v1); rebuild via core/clean_index/.
+#                         chroma.sqlite3 alone is 212 MB, past GitHub's 100 MB hard limit.
 # chunks_metadata.json -> 10.9 MB, regenerated on every index rebuild
+# archive/frozen_study.zip
+#                      -> 245 MB zip of the withdrawn pilot, also past the 100 MB limit.
+#                         Its four artefacts are tracked unzipped in archive/frozen_study/.
 PDFs/
 *.pdf
 chroma_db/
+chroma_db_clean/
 chunks_metadata.json
+archive/frozen_study.zip
 
 # Tracked on purpose (small scientific record): pilot_eval_set.json,
 # contradictions_cache.json, results_cache.jsonl, results.csv,
