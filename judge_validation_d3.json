@@ -1,0 +1,96 @@
+{
+  "n_key_rows": 120,
+  "n_scored": 120,
+  "n_unlabelled_skipped": 0,
+  "sixway": {
+    "n": 120,
+    "observed_agreement": 0.925,
+    "cohen_kappa": 0.8838,
+    "expected_agreement_pe": 0.3544,
+    "pabak": 0.9062,
+    "n_categories_for_pabak": 5
+  },
+  "confusion_matrix": {
+    "labels": [
+      "correct",
+      "abstention",
+      "retrieval_failure",
+      "grounded_but_wrong",
+      "parametric_error"
+    ],
+    "rows_human_cols_judge": {
+      "correct": {
+        "correct": 52,
+        "abstention": 1,
+        "retrieval_failure": 0,
+        "grounded_but_wrong": 0,
+        "parametric_error": 0
+      },
+      "abstention": {
+        "correct": 4,
+        "abstention": 34,
+        "retrieval_failure": 1,
+        "grounded_but_wrong": 0,
+        "parametric_error": 0
+      },
+      "retrieval_failure": {
+        "correct": 0,
+        "abstention": 0,
+        "retrieval_failure": 0,
+        "grounded_but_wrong": 0,
+        "parametric_error": 0
+      },
+      "grounded_but_wrong": {
+        "correct": 2,
+        "abstention": 0,
+        "retrieval_failure": 0,
+        "grounded_but_wrong": 24,
+        "parametric_error": 0
+      },
+      "parametric_error": {
+        "correct": 0,
+        "abstention": 1,
+        "retrieval_failure": 0,
+        "grounded_but_wrong": 0,
+        "parametric_error": 1
+      }
+    }
+  },
+  "binary_correct_vs_not": {
+    "n": 120,
+    "observed_agreement": 0.9417,
+    "cohen_kappa": 0.8829,
+    "pabak": 0.8833
+  },
+  "grounding_decision": {
+    "n_judge_grounded_present": 25,
+    "n_scored": 24,
+    "n_missing_human_grounded": 1,
+    "observed_agreement": 1.0,
+    "cohen_kappa": null,
+    "pabak": 1.0
+  },
+  "per_condition_observed_agreement": {
+    "A": {
+      "n": 24,
+      "observed_agreement": 0.875
+    },
+    "B1": {
+      "n": 24,
+      "observed_agreement": 0.875
+    },
+    "B2": {
+      "n": 24,
+      "observed_agreement": 1.0
+    },
+    "C": {
+      "n": 24,
+      "observed_agreement": 0.875
+    },
+    "D": {
+      "n": 24,
+      "observed_agreement": 1.0
+    }
+  },
+  "note_on_kappa": "Label marginals are heavily skewed (mostly correct and grounded_but_wrong); skewed marginals can depress Cohen's kappa despite high observed agreement, so observed agreement and PABAK are reported alongside kappa, never kappa alone."
+}
