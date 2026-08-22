@@ -1,3 +1,4 @@
+# SUPERSEDED (pilot-era). Use ../analyse_d3.py for the D3 study: this file's EXCLUDE set holds PILOT item indices (index 2 collides with the valid D3 item D3-03, making Condition D read 22/22 instead of 24/24), its "all 67 items" text and n=67 caveats do not apply to the 12-item D3 set, and it pools the 8b and 70b models with no split. Its load() remains the canonical six-way label reconstruction and is still imported elsewhere. No logic changed.
 """
 analyse_results.py
 ------------------
@@ -5,7 +6,8 @@ Item 5: turns results.csv (the four-condition run) into the dissertation's
 results tables and headline metrics.
 
 Reports, for the offshore-wind-farm domain:
-  * Per-condition outcome distribution (the master table).
+  * Per-condition outcome distribution
+   (the master table).
   * RQ1 -- retrieval vs parametric memory:
       - A-correct       : parametric-memory baseline (answers with NO documents)
       - B1-correct      : standard RAG

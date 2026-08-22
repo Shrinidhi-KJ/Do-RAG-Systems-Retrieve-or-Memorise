@@ -1,3 +1,36 @@
+> # !! SUPERSEDED -- DO NOT QUOTE THE NUMBERS BELOW !!
+>
+> **Everything below this banner describes the WITHDRAWN 67-item pilot study**: one
+> subject model (Llama 3.1 8B), the noisy `wind_farm_papers` index, and auto-generated
+> questions that restated their own answers. This file was last revised in June 2026 and
+> was **not** updated after the clean re-run.
+>
+> **The pilot's central conclusion was REVERSED by the clean 12-item Descriptor 3 re-run.**
+> The pilot reported `A ~= B1 >= B2` (69 / 67 / 60 %) and concluded that the system
+> answers largely *from parametric memory*. On the clean index, with hand-verified
+> questions and two subject models, the result is the opposite -- **retrieval clearly
+> helps**, and A vs B1 is significant in each model separately (exact McNemar p = 0.0078
+> for 8b, p = 0.031 for 70b).
+>
+> | | pilot (withdrawn) | clean D3 re-run (current) |
+> |---|---|---|
+> | A (no documents) | 69 % | **33 %** (8/24) |
+> | B1 (standard RAG) | 67 % | **92 %** (22/24) |
+> | B2 (oracle) | 60 % | **100 %** (24/24) |
+> | C (irrelevant docs), answered correctly | 21 % | **17 %** (4/24) |
+> | D (contradictory doc), followed the false doc | ~31 % | **100 %** (24/24) |
+> | retrieval Hit@5 | 43 % | **0.667** |
+> | corpus | 45,830 chunks / ~510 papers (`wind_farm_papers`) | **34,502 chunks / 501 papers** (`owf_clean_v1`) |
+> | scale | 67 items x 5 x 1 model = 335 cells | **12 items x 5 x 2 models = 120 cells** |
+>
+> **Current results: [`analysis_d3_full.md`](../analysis_d3_full.md)**, regenerated
+> from the frozen artefacts and verified against every published figure by
+> [`analyse_d3.py`](../analyse_d3.py) (34/34 checks pass). See also
+> `../project_reference.md` (what the system actually does) and
+> `../discrepancies.md` (every known inconsistency).
+>
+> The old content is retained below unchanged, for provenance. Nothing has been deleted.
+
 # Project walkthrough — how it was built and where it stands
 
 A study guide tells the project's story in the order it was
