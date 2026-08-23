@@ -31,6 +31,32 @@
 >
 > The old content is retained below unchanged, for provenance. Nothing has been deleted.
 
+## Current study — Descriptor 3 (clean re-run)
+
+A five-condition diagnostic separating retrieval from parametric memory. The same
+question is put to the system with no documents (A), with standard retrieval (B1),
+with the gold document supplied directly (B2), with deliberately irrelevant
+documents (C), and with a fluent counterfactual asserting the wrong answer (D).
+Run over 12 hand-verified Descriptor 3 items across two model sizes (Llama 3.1 8B
+and Llama 3.3 70B): 120 labelled cells.
+
+**Result.** Correctness rises from 33% with no documents (8/24) to 92% with standard
+retrieval (22/24); the paired comparison is significant, exact McNemar p = 0.0001.
+The oracle condition shows no detectable advantage over standard retrieval (24/24
+vs 22/24, p = 0.5). Both models follow the counterfactual document on 24 of 24 cells.
+
+**Reproduce.** `python analyse_d3.py --skip-retrieval` regenerates every published
+figure from the frozen results and reports 30/30 checks passed. The full run,
+including the retrieval stage, additionally needs the project venv.
+
+**Where things are.** [`analysis_d3_full.md`](analysis_d3_full.md) holds the current
+results; [`project_log.md`](project_log.md) is the dated work log. The Chroma index
+is not in this repository — see [`owf_clean_v1_MANIFEST.md`](owf_clean_v1_MANIFEST.md)
+for what it contains and how it was built.
+
+A separate applied project (BioAgora evidence synthesis) reuses this corpus and lives
+in its own repository.
+
 # Do RAG systems retrieve, or memorise?
 
 A four-condition diagnostic study of whether a retrieval-augmented generation (RAG)
